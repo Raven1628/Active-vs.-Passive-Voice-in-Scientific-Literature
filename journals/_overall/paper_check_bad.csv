@@ -1,0 +1,345 @@
+journal,paper_id,reasons
+Cancer,10.1002_cncr.20803,non-paper markers: ['editorial']
+Cancer,10.1002_cncr.21012,non-paper markers: ['correction']
+Cancer,10.1002_cncr.21013,non-paper markers: ['correction']
+Cancer,10.1002_cncr.21254,non-paper markers: ['Editorial']
+Cancer,10.1002_cncr.21285,non-paper markers: ['editorial']
+Cancer,10.1002_cncr.21477,non-paper markers: ['correction']
+Cancer,10.1002_cncr.21513,few paper markers (0 < 3)
+Cancer,10.1002_cncr.24881,non-paper markers: ['Editorial']
+Cancer,10.1002_cncr.24920,non-paper markers: ['editorial']
+Cancer,10.1002_cncr.25172,non-paper markers: ['Editorial']
+Cancer,10.1002_cncr.25191,non-paper markers: ['editorial']
+Cancer,10.1002_cncr.25378,non-paper markers: ['editorial']
+Cancer,10.1002_cncr.25484,few paper markers (0 < 3); non-paper markers: ['In Memoriam']
+Cancer,10.1002_cncr.25496,too short (82 chars < 1500); too few words (15 < 300); low alpha ratio (0.37 < 0.45); high digit ratio (0.37 > 0.35); too few sentences (1 < 12); few paper markers (0 < 3)
+Cancer,10.1002_cncr.25519,too short (85 chars < 1500); too few words (15 < 300); low alpha ratio (0.42 < 0.45); too few sentences (1 < 12); few paper markers (0 < 3)
+Cancer,10.1002_cncr.25610,too short (97 chars < 1500); too few words (15 < 300); too few sentences (1 < 12); few paper markers (0 < 3)
+Cancer,10.1002_cncr.25664,too short (91 chars < 1500); too few words (15 < 300); low alpha ratio (0.43 < 0.45); too few sentences (1 < 12); few paper markers (0 < 3)
+Cancer,10.1002_cncr.29255,non-paper markers: ['editorial']
+Cancer,10.1002_cncr.29284,"non-paper markers: ['editorial', 'Editorial']"
+Cancer,10.1002_cncr.29295,"non-paper markers: ['EDITORIAL', 'Editorial']"
+Cancer,10.1002_cncr.29333,non-paper markers: ['Editorial']
+Cancer,10.1002_cncr.29446,few paper markers (1 < 3)
+Cancer,10.1002_cncr.29527,non-paper markers: ['editorial']
+Cancer,10.1002_cncr.29564,non-paper markers: ['editorial']
+Cancer,10.1002_cncr.29603,non-paper markers: ['editorial']
+Cancer,10.1002_cncr.29653,non-paper markers: ['Erratum']
+Cancer,10.1002_cncr.32106,non-paper markers: ['Editorial']
+Cancer,10.1002_cncr.32720,non-paper markers: ['editorial']
+Cancer,10.1002_cncr.32883,non-paper markers: ['editorial']
+Cancer,10.1002_cncr.32919,few paper markers (1 < 3)
+Cancer,10.1002_cncr.32970,non-paper markers: ['Editorial']
+Cancer,10.1002_cncr.33047,non-paper markers: ['Editorial']
+Cancer,10.1002_cncr.33067,"non-paper markers: ['editorial', 'correction', 'Editorial']"
+Cancer,10.1002_cncr.33077,non-paper markers: ['correction']
+Cancer,10.1002_cncr.33079,"non-paper markers: ['editorial', 'Editorial']"
+Cancer,10.1002_cncr.33145,non-paper markers: ['correction']
+Cancer,10.1002_cncr.35682,non-paper markers: ['EDITORIAL']
+Cancer,10.1002_cncr.35696,non-paper markers: ['correction']
+Cancer,10.1002_cncr.35718,too few words (274 < 300); too few sentences (11 < 12)
+Cancer,10.1002_cncr.35819,non-paper markers: ['editorial']
+Cancer,10.1002_cncr.35873,non-paper markers: ['LETTER TO THE EDITOR']
+Cancer,10.1002_cncr.70022,non-paper markers: ['Correction']
+Cancer,10.1002_cncr.70112,non-paper markers: ['EDITORIAL']
+Cancer,10.1002_cncr.70124,non-paper markers: ['EDITORIAL']
+Cancer,10.1002_cncr.70195,"few paper markers (1 < 3); non-paper markers: ['editorial', 'Editorial']"
+Clinical_Genetics,10.1111_cge.12581,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_cge.12595,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_cge.12599,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_cge.13572,"few paper markers (0 < 3); non-paper markers: ['EDITORIAL', 'Editorial', 'table of contents']"
+Clinical_Genetics,10.1111_cge.13671,non-paper markers: ['correction']
+Clinical_Genetics,10.1111_cge.13682,non-paper markers: ['LETTER TO THE EDITOR']
+Clinical_Genetics,10.1111_cge.13697,"non-paper markers: ['correction', 'Correction']"
+Clinical_Genetics,10.1111_cge.13707,too short (527 chars < 1500); too few words (67 < 300); too few sentences (2 < 12); few paper markers (0 < 3)
+Clinical_Genetics,10.1111_cge.13730,non-paper markers: ['correction']
+Clinical_Genetics,10.1111_cge.13734,non-paper markers: ['Editorial']
+Clinical_Genetics,10.1111_cge.13763,non-paper markers: ['LETTER TO THE EDITOR']
+Clinical_Genetics,10.1111_cge.13774,non-paper markers: ['Correction']
+Clinical_Genetics,10.1111_cge.13796,non-paper markers: ['LETTER TO THE EDITOR']
+Clinical_Genetics,10.1111_cge.13808,non-paper markers: ['LETTER TO THE EDITOR']
+Clinical_Genetics,10.1111_cge.13832,non-paper markers: ['Editorial']
+Clinical_Genetics,10.1111_cge.13836,non-paper markers: ['LETTER TO THE EDITOR']
+Clinical_Genetics,10.1111_cge.13838,"non-paper markers: ['Correction', 'LETTER TO THE EDITOR']"
+Clinical_Genetics,10.1111_cge.14553,"few paper markers (0 < 3); non-paper markers: ['table \nof contents', 'EDITORIAL', 'Editorial', 'table of contents']"
+Clinical_Genetics,10.1111_cge.14557,"few paper markers (0 < 3); non-paper markers: ['table \nof contents', 'EDITORIAL', 'Editorial', 'table of contents']"
+Clinical_Genetics,10.1111_cge.14701,non-paper markers: ['correction']
+Clinical_Genetics,10.1111_cge.14711,non-paper markers: ['Correction']
+Clinical_Genetics,10.1111_cge.14726,non-paper markers: ['correction']
+Clinical_Genetics,10.1111_cge.14752,non-paper markers: ['correction']
+Clinical_Genetics,10.1111_cge.14765,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_cge.14766,non-paper markers: ['correction']
+Clinical_Genetics,10.1111_cge.14770,non-paper markers: ['correction']
+Clinical_Genetics,10.1111_cge.70003,non-paper markers: ['Erratum']
+Clinical_Genetics,10.1111_j.1399-0004.2005.00417.x,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_j.1399-0004.2005.00422.x,too short (1033 chars < 1500); too few words (167 < 300); too few sentences (9 < 12); few paper markers (0 < 3); non-paper markers: ['Corrigendum']
+Clinical_Genetics,10.1111_j.1399-0004.2005.00429.x,"non-paper markers: ['Erratum', 'Letter to the Editor']"
+Clinical_Genetics,10.1111_j.1399-0004.2005.00436.x,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_j.1399-0004.2005.00444.x,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_j.1399-0004.2005.00462.x,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_j.1399-0004.2005.00465.x,too short (761 chars < 1500); too few words (115 < 300); too few sentences (9 < 12); few paper markers (1 < 3); non-paper markers: ['Corrigendum']
+Clinical_Genetics,10.1111_j.1399-0004.2005.00489.x,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_j.1399-0004.2005.00495.x,non-paper markers: ['correction']
+Clinical_Genetics,10.1111_j.1399-0004.2005.00514.x,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_j.1399-0004.2005.00524.x,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_j.1399-0004.2005.00549.x,non-paper markers: ['editorial']
+Clinical_Genetics,10.1111_j.1399-0004.2005.0485b.x,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_j.1399-0004.2005.0author.x,few paper markers (0 < 3)
+Clinical_Genetics,10.1111_j.1399-0004.2005.0keyword.x,too few sentences (1 < 12); few paper markers (0 < 3)
+Clinical_Genetics,10.1111_j.1399-0004.2009.01308.x,non-paper markers: ['correction']
+Clinical_Genetics,10.1111_j.1399-0004.2009.01310.x,non-paper markers: ['correction']
+Clinical_Genetics,10.1111_j.1399-0004.2009.01318.x,non-paper markers: ['correction']
+Clinical_Genetics,10.1111_j.1399-0004.2009.01355.x,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_j.1399-0004.2009.01360.x,non-paper markers: ['Erratum']
+Clinical_Genetics,10.1111_j.1399-0004.2010.01377.x,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_j.1399-0004.2010.01420.x,few paper markers (0 < 3)
+Clinical_Genetics,10.1111_j.1399-0004.2010.01444.x,non-paper markers: ['Editorial']
+Clinical_Genetics,10.1111_j.1399-0004.2010.01448.x,non-paper markers: ['correction']
+Clinical_Genetics,10.1111_j.1399-0004.2010.01463.x,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_j.1399-0004.2010.01479.x,non-paper markers: ['obituary']
+Clinical_Genetics,10.1111_j.1399-0004.2010.01500.x,non-paper markers: ['Letter to the Editor']
+Clinical_Genetics,10.1111_j.1399-0004.2010.01507.x,few paper markers (1 < 3)
+Developmental_Dynamics,10.1002_dvdy.145,empty text
+Developmental_Dynamics,10.1002_dvdy.153,empty text
+Developmental_Dynamics,10.1002_dvdy.161,too short (968 chars < 1500); too few words (149 < 300); too few sentences (6 < 12); few paper markers (0 < 3)
+Developmental_Dynamics,10.1002_dvdy.166,non-paper markers: ['correction']
+Developmental_Dynamics,10.1002_dvdy.177,empty text
+Developmental_Dynamics,10.1002_dvdy.191,non-paper markers: ['correction']
+Developmental_Dynamics,10.1002_dvdy.20259,"non-paper markers: ['editorial', 'erratum']"
+Developmental_Dynamics,10.1002_dvdy.20466,non-paper markers: ['editorial']
+Developmental_Dynamics,10.1002_dvdy.20478,"too short (960 chars < 1500); too few words (132 < 300); too few sentences (9 < 12); few paper markers (0 < 3); non-paper markers: ['ERRATUM', 'Erratum', 'erratum']"
+Developmental_Dynamics,10.1002_dvdy.20639,"too few words (231 < 300); too few sentences (8 < 12); few paper markers (0 < 3); non-paper markers: ['ERRATUM', 'Erratum']"
+Developmental_Dynamics,10.1002_dvdy.22247,repeated sentence x9
+Developmental_Dynamics,10.1002_dvdy.22257,too short (256 chars < 1500); too few words (37 < 300); too few sentences (2 < 12); few paper markers (0 < 3)
+Developmental_Dynamics,10.1002_dvdy.22263,non-paper markers: ['Erratum']
+Developmental_Dynamics,10.1002_dvdy.22370,too short (253 chars < 1500); too few words (37 < 300); too few sentences (2 < 12); few paper markers (0 < 3)
+Developmental_Dynamics,10.1002_dvdy.22371,too short (613 chars < 1500); too few words (94 < 300); too few sentences (8 < 12); few paper markers (0 < 3)
+Developmental_Dynamics,10.1002_dvdy.22390,"non-paper markers: ['Volume 239, Issue']"
+Developmental_Dynamics,10.1002_dvdy.22404,non-paper markers: ['correction']
+Developmental_Dynamics,10.1002_dvdy.226,empty text
+Developmental_Dynamics,10.1002_dvdy.24197,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.24199,"non-paper markers: ['Editorial', 'Erratum']"
+Developmental_Dynamics,10.1002_dvdy.24201,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.24205,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.24238,non-paper markers: ['correction']
+Developmental_Dynamics,10.1002_dvdy.24246,non-paper markers: ['correction']
+Developmental_Dynamics,10.1002_dvdy.24278,non-paper markers: ['Correction']
+Developmental_Dynamics,10.1002_dvdy.24287,"too few words (242 < 300); too few sentences (11 < 12); few paper markers (1 < 3); non-paper markers: ['Corrigendum', 'CORRIGENDUM']"
+Developmental_Dynamics,10.1002_dvdy.24318,non-paper markers: ['correction']
+Developmental_Dynamics,10.1002_dvdy.24342,non-paper markers: ['editorial']
+Developmental_Dynamics,10.1002_dvdy.247,empty text
+Developmental_Dynamics,10.1002_dvdy.273,empty text
+Developmental_Dynamics,10.1002_dvdy.49,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.52,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.54,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.56,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.58,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.70003,non-paper markers: ['Correction']
+Developmental_Dynamics,10.1002_dvdy.70011,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.70012,empty text
+Developmental_Dynamics,10.1002_dvdy.70025,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.70032,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.70042,non-paper markers: ['Erratum']
+Developmental_Dynamics,10.1002_dvdy.70053,empty text
+Developmental_Dynamics,10.1002_dvdy.70065,empty text
+Developmental_Dynamics,10.1002_dvdy.70071,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.70074,few paper markers (1 < 3); non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.70085,empty text
+Developmental_Dynamics,10.1002_dvdy.70086,non-paper markers: ['Editorial']
+Developmental_Dynamics,10.1002_dvdy.70096,non-paper markers: ['Editorial']
+Ecology,002-10.1890_05-0003,few paper markers (1 < 3)
+Ecology,004-10.1890_05-0112,non-paper markers: ['book review']
+Ecology,005-10.1890_04-1420,"non-paper markers: ['correction', 'Editorial']"
+Ecology,006-10.1890_04-1161,non-paper markers: ['correction']
+Ecology,008-10.1890_05-0027,non-paper markers: ['correction']
+Ecology,011-10.1890_04-0978,non-paper markers: ['correction']
+Ecology,013-10.1890_04-0989,non-paper markers: ['correction']
+Ecology,017-10.1890_09-1582.1,non-paper markers: ['correction']
+Ecology,019-10.1890_05-0583,non-paper markers: ['correction']
+Ecology,020-10.1890_09-1028.1,non-paper markers: ['correction']
+Ecology,027-10.1890_09-1582.1,non-paper markers: ['correction']
+Ecology,030-10.1890_09-1028.1,non-paper markers: ['correction']
+Ecology,031-10.1890_09-0368.1,non-paper markers: ['correction']
+Ecology,037-10.1890_09-1383.1,non-paper markers: ['correction']
+Ecology,046-10.1890_14-1100.1,non-paper markers: ['correction']
+Ecology,10.1002_ecy.2015.96.8.i,non-paper markers: ['correction']
+Ecology,10.1002_ecy.2936,non-paper markers: ['Correction']
+Ecology,10.1002_ecy.2952,non-paper markers: ['correction']
+Ecology,10.1002_ecy.2965,few paper markers (0 < 3); non-paper markers: ['Erratum']
+Ecology,10.1002_ecy.2981,non-paper markers: ['Correction']
+Ecology,10.1002_ecy.3002,few paper markers (0 < 3); non-paper markers: ['Erratum']
+Ecology,10.1002_ecy.4336,"too short (1345 chars < 1500); too few words (199 < 300); too few sentences (7 < 12); few paper markers (1 < 3); non-paper markers: ['Volume 105, Issue']"
+Ecology,10.1002_ecy.4347,too few words (287 < 300); few paper markers (1 < 3); non-paper markers: ['Editorial']
+Ecology,10.1002_ecy.4351,too few words (287 < 300); few paper markers (1 < 3); non-paper markers: ['Editorial']
+Ecology,10.1002_ecy.4353,too few words (287 < 300); few paper markers (1 < 3); non-paper markers: ['Editorial']
+Ecology,10.1002_ecy.70132,non-paper markers: ['Correction']
+Ecology,10.1002_ecy.70194,non-paper markers: ['correction']
+Ecology,Ecology - 2000 - Symstad - A TEST OF THE EFFECTS OF FUNCTIONAL GROUP RICHNESS AND COMPOSITION ON GRASSLAND INVASIBILITY,non-paper markers: ['correction']
+Ecology,Ecology - 2015 - Rauset - Reproductive patterns result from age-related sensitivity to resources and reproductive costs in,non-paper markers: ['correction']
+Ecology,Ecology - 2015 - Rose - Does allochthony in lakes change across an elevation gradient,non-paper markers: ['correction']
+Ecology,Ecology - 2015 - Turner - Retrospective stable isotope analysis reveals ecosystem responses to river regulation over the,non-paper markers: ['editorial']
+Ecology,Ecology - 2019 - Papp - Glucose triggers strong taxon-specific responses in microbial growth and activity  insights from,non-paper markers: ['Correction']
+Ecology,Ecology - 2019 - Thibaut - Hierarchical modeling strengthens evidence for density dependence in observational time series,non-paper markers: ['correction']
+Ecology,Ecology - 2024 - Benedetto - Condo or cuisine  The function of fine woody debris in driving decomposition  detritivores,"non-paper markers: ['correction', 'editorial']"
+Molecular_Ecology,10.1111_j.1365-294x.2005.02482.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2005.02492.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2005.02560.x,"non-paper markers: ['correction', 'Book Review']"
+Molecular_Ecology,10.1111_j.1365-294x.2005.02565.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2005.02567.x,non-paper markers: ['Editorial']; repeated sentence x30
+Molecular_Ecology,10.1111_j.1365-294x.2005.02581.x,non-paper markers: ['Editorial']
+Molecular_Ecology,10.1111_j.1365-294x.2005.02582.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2005.02598.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2005.02606.x,too few words (236 < 300); too few sentences (10 < 12)
+Molecular_Ecology,10.1111_j.1365-294x.2005.02628.x,non-paper markers: ['Book Review']
+Molecular_Ecology,10.1111_j.1365-294x.2005.02640.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2005.02673.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2005.02685.x,too short (876 chars < 1500); too few words (127 < 300); too few sentences (4 < 12); few paper markers (1 < 3)
+Molecular_Ecology,10.1111_j.1365-294x.2005.02697.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2005.02710.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2005.02716.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2009.04455.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2009.04476.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2009.04479.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04524.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04545.x,too few words (275 < 300); too few sentences (11 < 12); non-paper markers: ['Corrigendum']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04564.x,"non-paper markers: ['Corrigendum', 'CORRIGENDUM']"
+Molecular_Ecology,10.1111_j.1365-294x.2010.04623.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04625.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04643.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04682.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04712.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04753.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04769.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04803.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04805.x,non-paper markers: ['Correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04833.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04838.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_j.1365-294x.2010.04900.x,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.12998,non-paper markers: ['EDITORIAL']
+Molecular_Ecology,10.1111_mec.13009,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.13052,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.13069,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.13134,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.13151,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.13186,non-paper markers: ['correction']; repeated sentence x10
+Molecular_Ecology,10.1111_mec.13192,repeated sentence x15
+Molecular_Ecology,10.1111_mec.13202,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.13208,non-paper markers: ['correction']; repeated sentence x15
+Molecular_Ecology,10.1111_mec.13218,non-paper markers: ['correction']; repeated sentence x9
+Molecular_Ecology,10.1111_mec.13228,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.13247,"non-paper markers: ['correction', 'Correction']; repeated sentence x20"
+Molecular_Ecology,10.1111_mec.13340,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.13349,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.13362,non-paper markers: ['correction']; repeated sentence x11
+Molecular_Ecology,10.1111_mec.13386,non-paper markers: ['Editorial']
+Molecular_Ecology,10.1111_mec.13417,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.13419,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.13437,repeated sentence x12
+Molecular_Ecology,10.1111_mec.14312,"few paper markers (1 < 3); non-paper markers: ['editorial', 'Editorial']"
+Molecular_Ecology,10.1111_mec.14321,"few paper markers (1 < 3); non-paper markers: ['editorial', 'Editorial']"
+Molecular_Ecology,10.1111_mec.14745,"non-paper markers: ['editorial', 'Editorial']"
+Molecular_Ecology,10.1111_mec.14748,"few paper markers (1 < 3); non-paper markers: ['editorial', 'Editorial']"
+Molecular_Ecology,10.1111_mec.15201,"non-paper markers: ['correction', 'Volume 28, Issue', 'CORRIGENDUM']"
+Molecular_Ecology,10.1111_mec.15341,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.15354,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.15362,non-paper markers: ['Correction']
+Molecular_Ecology,10.1111_mec.15395,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.15403,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.15443,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.15445,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.15497,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.15557,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.15608,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.15628,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.15664,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.17393,few paper markers (1 < 3); non-paper markers: ['editorial']
+Molecular_Ecology,10.1111_mec.17396,few paper markers (1 < 3); non-paper markers: ['editorial']
+Molecular_Ecology,10.1111_mec.17400,few paper markers (1 < 3); non-paper markers: ['editorial']
+Molecular_Ecology,10.1111_mec.17403,few paper markers (1 < 3); non-paper markers: ['editorial']
+Molecular_Ecology,10.1111_mec.17660,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.17668,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.17693,non-paper markers: ['Correction']
+Molecular_Ecology,10.1111_mec.17766,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.17809,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.17815,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.70008,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.70035,"non-paper markers: ['editorial', 'EDITORIAL', 'Editorial', 'Correction']"
+Molecular_Ecology,10.1111_mec.70045,non-paper markers: ['Correction']
+Molecular_Ecology,10.1111_mec.70099,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.70136,non-paper markers: ['Correction']
+Molecular_Ecology,10.1111_mec.70146,non-paper markers: ['correction']
+Molecular_Ecology,10.1111_mec.70193,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.20391,"non-paper markers: ['correction', 'Erratum']"
+Journal_of_Neuroscience_Research,10.1002_jnr.20426,"too few words (201 < 300); too few sentences (10 < 12); few paper markers (0 < 3); non-paper markers: ['erratum', 'Erratum']"
+Journal_of_Neuroscience_Research,10.1002_jnr.20431,non-paper markers: ['editorial']
+Journal_of_Neuroscience_Research,10.1002_jnr.20451,non-paper markers: ['editorial']
+Journal_of_Neuroscience_Research,10.1002_jnr.20549,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.20553,"too short (1077 chars < 1500); too few words (147 < 300); too few sentences (10 < 12); few paper markers (0 < 3); non-paper markers: ['erratum', 'Erratum']"
+Journal_of_Neuroscience_Research,10.1002_jnr.20602,non-paper markers: ['editorial']
+Journal_of_Neuroscience_Research,10.1002_jnr.22506,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.23539,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.23566,"non-paper markers: ['correction', 'In memoriam']"
+Journal_of_Neuroscience_Research,10.1002_jnr.23613,empty text
+Journal_of_Neuroscience_Research,10.1002_jnr.23634,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.23641,non-paper markers: ['editorial']
+Journal_of_Neuroscience_Research,10.1002_jnr.23680,too short (73 chars < 1500); too few words (11 < 300); too few sentences (1 < 12); few paper markers (0 < 3)
+Journal_of_Neuroscience_Research,10.1002_jnr.24583,non-paper markers: ['Correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.24604,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.24629,non-paper markers: ['correction']; repeated sentence x10
+Journal_of_Neuroscience_Research,10.1002_jnr.24634,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.24666,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.24702,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.24722,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.24723,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.25344,too few sentences (5 < 12); few paper markers (0 < 3); non-paper markers: ['EDITORIAL']
+Journal_of_Neuroscience_Research,10.1002_jnr.25352,too few sentences (5 < 12); few paper markers (0 < 3); non-paper markers: ['EDITORIAL']
+Journal_of_Neuroscience_Research,10.1002_jnr.25353,too few sentences (5 < 12); few paper markers (0 < 3); non-paper markers: ['EDITORIAL']
+Journal_of_Neuroscience_Research,10.1002_jnr.25354,too few sentences (5 < 12); few paper markers (0 < 3); non-paper markers: ['EDITORIAL']
+Journal_of_Neuroscience_Research,10.1002_jnr.70013,"non-paper markers: ['correction', 'Erratum']"
+Journal_of_Neuroscience_Research,10.1002_jnr.70021,"non-paper markers: ['correction', 'Correction']"
+Journal_of_Neuroscience_Research,10.1002_jnr.70025,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.70029,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.70030,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.70048,"non-paper markers: ['correction', 'Editorial']"
+Journal_of_Neuroscience_Research,10.1002_jnr.70066,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.70077,non-paper markers: ['Correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.70086,non-paper markers: ['correction']
+Journal_of_Neuroscience_Research,10.1002_jnr.70097,"non-paper markers: ['correction', 'Correction']"
+Journal_of_Neuroscience_Research,10.1002_jnr.70099,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_j.1365-2958.2005.04664.x,non-paper markers: ['Erratum']
+Molecular_Microbiology,10.1111_j.1365-2958.2005.04830.x,non-paper markers: ['editorial']
+Molecular_Microbiology,10.1111_j.1365-2958.2005.04869.x,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_j.1365-2958.2010.07062.x,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_j.1365-2958.2010.07252.x,non-paper markers: ['table of contents']
+Molecular_Microbiology,10.1111_j.1365-2958.2010.07311.x,non-paper markers: ['erratum']
+Molecular_Microbiology,10.1111_mmi.12881,non-paper markers: ['Obituary']
+Molecular_Microbiology,10.1111_mmi.12919,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_mmi.12927,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_mmi.12931,too short (371 chars < 1500); too few words (46 < 300); too few sentences (1 < 12); few paper markers (0 < 3)
+Molecular_Microbiology,10.1111_mmi.12987,repeated sentence x10
+Molecular_Microbiology,10.1111_mmi.13080,too few words (257 < 300); non-paper markers: ['Corrigendum']
+Molecular_Microbiology,10.1111_mmi.13127,too short (344 chars < 1500); too few words (46 < 300); too few sentences (1 < 12); few paper markers (0 < 3)
+Molecular_Microbiology,10.1111_mmi.13159,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_mmi.13199,too short (375 chars < 1500); too few words (49 < 300); too few sentences (1 < 12); few paper markers (0 < 3)
+Molecular_Microbiology,10.1111_mmi.13288,too short (407 chars < 1500); too few words (54 < 300); too few sentences (2 < 12); few paper markers (0 < 3)
+Molecular_Microbiology,10.1111_mmi.14283,too short (382 chars < 1500); too few words (49 < 300); too few sentences (1 < 12); few paper markers (0 < 3)
+Molecular_Microbiology,10.1111_mmi.14284,"few paper markers (0 < 3); non-paper markers: ['editorial', 'Editorial', 'table of contents']"
+Molecular_Microbiology,10.1111_mmi.14285,too short (347 chars < 1500); too few words (47 < 300); too few sentences (1 < 12); few paper markers (0 < 3)
+Molecular_Microbiology,10.1111_mmi.14287,too short (210 chars < 1500); too few words (28 < 300); too few sentences (1 < 12); few paper markers (0 < 3)
+Molecular_Microbiology,10.1111_mmi.14294,"few paper markers (0 < 3); non-paper markers: ['Corrigendum', 'editorial', 'Editorial', 'table of contents']"
+Molecular_Microbiology,10.1111_mmi.14295,too short (376 chars < 1500); too few words (46 < 300); too few sentences (1 < 12); few paper markers (0 < 3)
+Molecular_Microbiology,10.1111_mmi.14296,"few paper markers (0 < 3); non-paper markers: ['editorial', 'Editorial', 'table of contents']"
+Molecular_Microbiology,10.1111_mmi.14302,"few paper markers (0 < 3); non-paper markers: ['Corrigendum', 'editorial', 'Editorial', 'table of contents']"
+Molecular_Microbiology,10.1111_mmi.14303,too short (340 chars < 1500); too few words (42 < 300); too few sentences (1 < 12); few paper markers (0 < 3)
+Molecular_Microbiology,10.1111_mmi.14482,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_mmi.14483,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_mmi.14488,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_mmi.15344,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_mmi.15354,"few paper markers (0 < 3); non-paper markers: ['Editorial', 'table of contents']"
+Molecular_Microbiology,10.1111_mmi.70003,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_mmi.70015,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_mmi.70019,"few paper markers (0 < 3); non-paper markers: ['Editorial', 'table of contents', 'Correction']"
+Molecular_Microbiology,10.1111_mmi.70022,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_mmi.70023,"few paper markers (0 < 3); non-paper markers: ['Editorial', 'table of contents']"
+Molecular_Microbiology,10.1111_mmi.70025,non-paper markers: ['correction']
+Molecular_Microbiology,10.1111_mmi.70026,"few paper markers (0 < 3); non-paper markers: ['Editorial', 'table of contents']"
