@@ -1,8 +1,8 @@
 journal,n,mean,sd,ci_low,ci_high
-Ecology,127,0.7839,0.0651,0.7726,0.7952
-Cancer,163,0.7541,0.0772,0.7422,0.7659
-Molecular_Ecology,110,0.7494,0.0758,0.7353,0.7636
-Clinical_Genetics,119,0.7234,0.0672,0.7113,0.7355
-Developmental_Dynamics,130,0.7147,0.0733,0.7021,0.7273
-Journal_of_Neuroscience_Research,147,0.6852,0.0783,0.6725,0.6978
-Molecular_Microbiology,153,0.655,0.0803,0.6423,0.6677
+Ecology,127,0.726,0.0817,0.7118,0.7402
+Molecular_Ecology,110,0.6196,0.0989,0.6011,0.638
+Clinical_Genetics,113,0.6149,0.0878,0.5987,0.6311
+Cancer,146,0.598,0.1012,0.5816,0.6144
+Developmental_Dynamics,130,0.5864,0.0917,0.5707,0.6022
+Journal_of_Neuroscience_Research,147,0.5483,0.0945,0.533,0.5635
+Molecular_Microbiology,153,0.5318,0.0891,0.5177,0.5459
