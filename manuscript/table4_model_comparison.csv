@@ -1,0 +1,7 @@
+Predictor,Model 1,Model 2,Model 3,Model 4
+Active voice,+9.792*** (1.826),+6.932*** (1.864),+6.866*** (1.886),+8.906*** (2.080)
+Journal Impact Factor,—,+0.706*** (0.123),+0.710*** (0.124),+0.388* (0.195)
+Publication year,—,—,+0.005 (0.022),-0.005 (0.022)
+Journal fixed effects,No,No,No,Yes
+R²,0.029,0.062,0.062,0.081
+N,949,949,949,949
