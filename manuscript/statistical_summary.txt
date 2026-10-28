@@ -109,7 +109,7 @@ SUMMARY OF KEY FINDINGS
 Sample size:                     926 papers
 Active voice overall mean:       0.600
 Active voice range:              0.284 – 0.966
-Highest journal:                 Cancer (0.726)
+Highest journal:                 Ecology (0.726)
 Lowest journal:                  Molecular_Microbiology (0.532)
 
 Sample-wide temporal trend:      +0.00288/year (p = 9.41e-09, R² = 0.035)
