@@ -122,12 +122,21 @@ cols = 4
 rows = int(np.ceil(len(journals) / cols))
 gs_b = gs[1].subgridspec(rows, cols, hspace=0.55, wspace=0.4)
 
+# Compute shared y-axis limits across all panels for comparability
+all_ynorm = df["jif_norm"].dropna()
+ymax_shared = 12
+yticks_shared = np.arange(0, 13, 2)
+print(f"Shared y-axis max: {ymax_shared:.2f}")
+
 for i, j in enumerate(journals):
     ax = fig.add_subplot(gs_b[i // cols, i % cols])
     sub = df[df["journal_clean"] == j]
     color = JOURNAL_COLORS.get(j, "#333333")
     scatter_fit(ax, sub[ratio_col].values, sub["jif_norm"].values, color=color)
     ax.set_title(f"{j} (n={len(sub)})", fontsize=8.5, fontweight="bold", color=color)
+    ax.set_ylim(0, ymax_shared)
+    ax.set_yticks(yticks_shared)
+    ax.set_yticks(yticks_shared)
     ax.set_xlabel("Active voice", fontsize=8)
     ax.set_ylabel("JIF-norm cites/yr", fontsize=8)
     ax.tick_params(labelsize=7)
