@@ -5,6 +5,7 @@
 # Reads from _github_original/analysis/master_with_jif.csv
 
 import os
+import re
 import numpy as np
 import pandas as pd
 import matplotlib
@@ -114,7 +115,7 @@ ax = fig.add_subplot(gs[0])
 slope, r2, p = scatter_fit(ax, df[ratio_col].values, df["jif_norm"].values, color="grey")
 ax.set_xlabel("Active voice score")
 ax.set_ylabel("JIF-normalized citations per year")
-ax.set_title(f"(a)  Overall (n = {len(df)})", loc="left", fontweight="bold", fontsize=11)
+ax.set_title(f"Overall (n = {len(df)})", loc="left", fontweight="bold", fontsize=12)
 
 # ---------- Panel (b): Per journal
 cols = 4
@@ -135,9 +136,12 @@ for i, j in enumerate(journals):
 for k in range(len(journals), rows * cols):
     fig.add_subplot(gs_b[k // cols, k % cols]).axis("off")
 
-fig.text(0.005, 0.98, "b", fontsize=13, fontweight="bold", va="top")
 
 out_path = os.path.join(OUT_DIR, "fig3_jif_normalized.png")
+fig.text(0.01, 0.97, "(a)", fontsize=13, fontweight="bold", va="top", ha="left")
+fig.text(0.01, 0.50, "(b)", fontsize=13, fontweight="bold", va="top", ha="left")
+
+fig.suptitle("JIF-normalized citations vs active voice score", fontsize=15, fontweight="bold", y=0.995)
 fig.savefig(out_path)
 plt.close(fig)
 print(f"Wrote {out_path}")

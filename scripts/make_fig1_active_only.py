@@ -96,7 +96,7 @@ ax.set_ylabel("Proportion of sentences (active voice)")
 ax.set_xlabel("Publication year")
 ax.set_xticks(sorted(df["year"].unique()))
 ax.set_ylim(0, 1)
-ax.set_title("(a)  Overall active voice usage over time", loc="left",
+ax.set_title("Overall active voice usage over time", loc="left",
              fontsize=12, fontweight="bold")
 
 # ---------- Panel (b): Per journal with significance
@@ -143,7 +143,8 @@ for i, j in enumerate(journals):
 for k in range(n_j, nrows * ncols):
     fig.add_subplot(gs_b[k // ncols, k % ncols]).axis("off")
 
-fig.text(0.005, 0.985, "b", fontsize=14, fontweight="bold", va="top")
+fig.text(0.01, 0.97, "(a)", fontsize=13, fontweight="bold", va="top", ha="left")
+fig.text(0.01, 0.50, "(b)", fontsize=13, fontweight="bold", va="top", ha="left")
 fig.suptitle("Active voice usage over time", fontsize=15, fontweight="bold", y=0.995)
 
 out_path = os.path.join(OUT_DIR, "fig1_active_only.png")
