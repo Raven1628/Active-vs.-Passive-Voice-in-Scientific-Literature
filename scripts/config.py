@@ -82,3 +82,9 @@ def ensure_journal_folders(journal):
 
 for j in TARGET_JOURNALS:
     ensure_journal_folders(j)
+
+# ---------- NLP SETTINGS ----------
+SPACY_MODEL = "en_core_web_lg"
+
+# ---------- NLP SETTINGS ----------
+SPACY_MODEL = "en_core_web_lg"

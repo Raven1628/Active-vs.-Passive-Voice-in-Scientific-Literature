@@ -84,13 +84,7 @@ def process_journal(journal):
             with open(os.path.join(src, filename)) as f:
                 data = json.load(f)
 
-            # Skip papers flagged as incomplete
-            if data.get("_skip"):
-                with open(output_path, "w") as f:
-                    json.dump({"_skip": True, "paper_id": paper_id, "journal": journal}, f, indent=2)
-                skipped += 1
-                continue
-
+            # Do NOT skip papers for missing sections — process whatever text exists.
             cleaned = {
                 "paper_id": paper_id,
                 "journal": journal,
@@ -99,6 +93,8 @@ def process_journal(journal):
                 text = data.get(section)
                 cleaned[section] = remove_non_literary(text) if text else None
 
+            if data.get("_missing_sections"):
+                cleaned["_missing_sections"] = data["_missing_sections"]
             if data.get("_combined_sections"):
                 cleaned["_combined_sections"] = data["_combined_sections"]
 

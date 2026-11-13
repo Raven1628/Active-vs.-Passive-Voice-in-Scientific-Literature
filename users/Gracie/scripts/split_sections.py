@@ -311,7 +311,7 @@ def process_journal(journal):
         if missing:
             result["_flagged"] = True
             result["_missing_sections"] = missing
-            result["_skip"] = True
+            # _skip removed: papers without all sections are still processed.
             skipped_papers.append(paper_id)
 
         with open(out_path, "w") as f:

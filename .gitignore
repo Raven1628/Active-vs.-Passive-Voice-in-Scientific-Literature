@@ -1,38 +1,43 @@
-.env
-.env.*
-!.env.example
-*.key
-*.pem
-__pycache__/
-*.py[cod]
-*.egg-info/
-.DS_Store
-._*
-*.bak
-*.bak.*
-*.OLD
-.vscode/
-.idea/
-*.swp
-.Rhistory
-.RData
-.Rproj.user/
+# Data (large, generated)
+journals/*/raw_papers/
+journals/*/raw_text/
+journals/*/sections/
+journals/*/cleaned/
+journals/*/sentences/
+journals/*/classifications/
+journals/*/scores/
+journals/*/whole_papers/
+journals/*/segments_whole/
+journals/*/sentences_whole/
+journals/*/classifications_whole/
+journals/*/scores_whole/
+journals/_overall/
+journals/*/dois.txt
+journals/*/raw_papers_old/
+journals/*/raw_papers.bad*
 
-# === users/ folder rules ===
+# Environment files
+.env
 users/*/.env
-users/*/journals/*/raw_papers/
-users/*/journals/*/raw_text/
-users/*/journals/*/sections/
-users/*/journals/*/cleaned/
-users/*/journals/*/sentences/
-users/*/journals/*/classifications/
-users/*/journals/*/scores/
-users/*/manuscript/
-users/*/scripts/__pycache__/
-users/*/scripts/*.pyc
-users/*/scripts/*.bak
-users/*/scripts/*.wiley_bak
-users/*/scripts/*.pre_lg
-users/*/config.yaml.full
-users/*/config.yaml.bak
-users/*/.DS_Store
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Backups
+*.bak
+*.bak2
+*.strict_bak
+*.pre_*
+*.proxy_bak
+_backup_*
+
+# Large generated
+*.pdf
+*.png
+*.svg

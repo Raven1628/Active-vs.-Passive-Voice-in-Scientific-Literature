@@ -1,17 +1,13 @@
 project:
-  name: "OUP Test"
-
+  name: "OUP Test — Brain only"
 journals:
-  - name: "Bioinformatics"
-    issn: "1367-4803"
-
+  - name: "Brain"
+    issn: "0006-8950"
 years: [2020]
-papers_per_year: 3
-
+papers_per_year: 5
 fetching:
   api_source: "oxford_university_press"
   use_issn: true
-
 nlp:
   spacy_model: "en_core_web_sm"
   min_sentence_words: 5

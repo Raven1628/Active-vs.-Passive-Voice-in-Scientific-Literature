@@ -12,7 +12,7 @@ from config import (
 )
 
 CROSSREF_BASE = "https://api.crossref.org/journals"
-HEADERS = {"User-Agent": "VoiceAnalysisProject/1.0 (mailto:reganwhite@example.com)"}
+HEADERS = {"User-Agent": "VoiceAnalysisProject/1.0 (mailto:reganwhite2003@gmail.com)"}
 
 # Crossref `subtype` values that indicate primary research
 ALLOWED_SUBTYPES = {"original article", "research article", "research-article",

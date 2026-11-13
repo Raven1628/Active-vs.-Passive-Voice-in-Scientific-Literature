@@ -21,15 +21,54 @@ BLOCKED_SUBTYPES = {
 }
 
 def is_likely_research_article(item):
-    subtype = (item.get("subtype") or "").strip().lower()
-    if subtype in BLOCKED_SUBTYPES:
+    """Filter to actual original research papers."""
+    title = (item.get("title") or [""])[0].strip()
+    title_lower = title.lower()
+
+    blocked_prefixes = (
+        "correction", "corrigendum", "erratum", "retraction",
+        "editorial", "reply", "response", "comment on", "commentary on",
+        "letter", "letters", "in this issue", "in memoriam",
+        "obituary", "book review", "review of", "proceedings of",
+        "abstracts from", "issue information", "front matter", "back matter",
+        "editor's choice", "highlights from", "correction to:",
+        "erratum to:", "corrigendum to:", "retraction to:",
+    )
+    if any(title_lower.startswith(p) for p in blocked_prefixes):
         return False
-    title = (item.get("title") or [""])[0].lower()
-    blocked_title_words = ("correction", "erratum", "editorial",
-                            "retraction", "obituary", "in memoriam",
-                            "table of contents")
-    if any(w in title for w in blocked_title_words):
+
+    blocked_anywhere = (
+        "corrigendum", "erratum to", "correction to", "retraction to",
+        "table of contents", "in memoriam",
+    )
+    if any(w in title_lower for w in blocked_anywhere):
         return False
+
+    page = (item.get("page") or "").strip()
+    if page:
+        if "-" in page:
+            try:
+                s, e = page.split("-", 1)
+                sn = int(''.join(c for c in s if c.isdigit()) or 0)
+                en = int(''.join(c for c in e if c.isdigit()) or 0)
+                if (en - sn) < 3:
+                    return False
+            except (ValueError, AttributeError):
+                pass
+        else:
+            digits = ''.join(c for c in page if c.isdigit())
+            if digits and len(digits) <= 4:
+                return False
+
+    # Reference-count check (editorials/commentaries cite <15 refs)
+    ref_count = item.get("references-count")
+    if ref_count is not None:
+        try:
+            if int(ref_count) < 15:
+                return False
+        except (ValueError, TypeError):
+            pass
+
     return True
 
 def fetch_dois_for_journal_year(issn, year, count):
@@ -37,7 +76,7 @@ def fetch_dois_for_journal_year(issn, year, count):
     params = {
         "filter": f"from-pub-date:{year}-01-01,until-pub-date:{year}-12-31,type:journal-article",
         "rows": count * 5,
-        "select": "DOI,title,type,subject",
+        "select": "DOI,title,type,page,references-count,abstract,subject",
         "mailto": "doilist39@gmail.com",
     }
     try:
