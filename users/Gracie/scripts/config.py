@@ -41,6 +41,13 @@ SENTENCES_SUBDIR = "sentences"
 CLASSIFICATIONS_SUBDIR = "classifications"
 SCORES_SUBDIR = "scores"
 
+# ---------- WHOLE-PAPER SUBFOLDERS ----------
+WHOLE_PAPERS_SUBDIR = "whole_papers"
+SEGMENTS_WHOLE_SUBDIR = "segments_whole"
+SENTENCES_WHOLE_SUBDIR = "sentences_whole"
+CLASSIFICATIONS_WHOLE_SUBDIR = "classifications_whole"
+SCORES_WHOLE_SUBDIR = "scores_whole"
+
 # NLP settings
 _nlp_cfg = _cfg.get("nlp", {})
 SPACY_MODEL = _nlp_cfg.get("spacy_model", "en_core_web_sm")
@@ -61,6 +68,8 @@ def ensure_journal_folders(journal):
     for sub in [
         RAW_PAPERS_SUBDIR, RAW_TEXT_SUBDIR, SECTIONS_SUBDIR,
         CLEANED_SUBDIR, SENTENCES_SUBDIR, CLASSIFICATIONS_SUBDIR, SCORES_SUBDIR,
+        WHOLE_PAPERS_SUBDIR, SEGMENTS_WHOLE_SUBDIR, SENTENCES_WHOLE_SUBDIR,
+        CLASSIFICATIONS_WHOLE_SUBDIR, SCORES_WHOLE_SUBDIR,
     ]:
         os.makedirs(journal_path(journal, sub), exist_ok=True)
 
