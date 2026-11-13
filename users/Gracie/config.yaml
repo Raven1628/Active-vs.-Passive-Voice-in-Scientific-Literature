@@ -1,0 +1,30 @@
+project:
+  name: "MDPI Voice Analysis"
+
+journals:
+  - name: "International Journal of Molecular Sciences"
+    issn: "1422-0067"
+  - name: "Sensors"
+    issn: "1424-8220"
+  - name: "Entropy"
+    issn: "1099-4300"
+  - name: "International Journal of Environmental Research and Public Health"
+    issn: "1660-4601"
+  - name: "Molbank"
+    issn: "1422-8599"
+  - name: "Mathematical and Computational Applications"
+    issn: "2297-8747"
+  - name: "Molecules"
+    issn: "1420-3049"
+
+years: [2005, 2010, 2015, 2020, 2025]
+papers_per_year: 40
+
+fetching:
+  api_source: "mdpi"
+  use_issn: true
+
+nlp:
+  spacy_model: "en_core_web_sm"
+  min_sentence_words: 5
+  target_sections: ["introduction", "methods", "results", "discussion"]

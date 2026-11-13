@@ -17,3 +17,22 @@ __pycache__/
 .Rhistory
 .RData
 .Rproj.user/
+
+# === users/ folder rules ===
+users/*/.env
+users/*/journals/*/raw_papers/
+users/*/journals/*/raw_text/
+users/*/journals/*/sections/
+users/*/journals/*/cleaned/
+users/*/journals/*/sentences/
+users/*/journals/*/classifications/
+users/*/journals/*/scores/
+users/*/manuscript/
+users/*/scripts/__pycache__/
+users/*/scripts/*.pyc
+users/*/scripts/*.bak
+users/*/scripts/*.wiley_bak
+users/*/scripts/*.pre_lg
+users/*/config.yaml.full
+users/*/config.yaml.bak
+users/*/.DS_Store

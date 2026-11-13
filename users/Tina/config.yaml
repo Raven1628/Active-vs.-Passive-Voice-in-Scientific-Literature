@@ -1,0 +1,18 @@
+project:
+  name: "OUP Test"
+
+journals:
+  - name: "Bioinformatics"
+    issn: "1367-4803"
+
+years: [2020]
+papers_per_year: 3
+
+fetching:
+  api_source: "oxford_university_press"
+  use_issn: true
+
+nlp:
+  spacy_model: "en_core_web_sm"
+  min_sentence_words: 5
+  target_sections: ["introduction", "methods", "results", "discussion"]

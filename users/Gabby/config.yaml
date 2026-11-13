@@ -1,0 +1,30 @@
+project:
+  name: "Frontiers Voice Analysis"
+
+journals:
+  - name: "Journal 1"
+    issn: ""
+  - name: "Journal 2"
+    issn: ""
+  - name: "Journal 3"
+    issn: ""
+  - name: "Journal 4"
+    issn: ""
+  - name: "Journal 5"
+    issn: ""
+  - name: "Journal 6"
+    issn: ""
+  - name: "Journal 7"
+    issn: ""
+
+years: [2005, 2010, 2015, 2020, 2025]
+papers_per_year: 40
+
+fetching:
+  api_source: "frontiers"
+  use_issn: true
+
+nlp:
+  spacy_model: "en_core_web_sm"
+  min_sentence_words: 5
+  target_sections: ["introduction", "methods", "results", "discussion"]
