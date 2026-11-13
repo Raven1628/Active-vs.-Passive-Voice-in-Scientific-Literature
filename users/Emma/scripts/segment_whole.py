@@ -56,7 +56,7 @@ def process_journal(journal):
             skipped += 1
             continue
 
-        sentences = split_sentences(data.get("body", ""))
+        sentences = split_sentences(data.get("text", ""))
         result = {
             "paper_id": data.get("paper_id"),
             "journal": journal,

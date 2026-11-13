@@ -66,7 +66,7 @@ def has_research_structure(text):
     if not text:
         return False
     # Look at first 5000 chars — enough to catch the abstract and first headings
-    head = text[:5000]
+    head = text[:15000]
     # Cancer-style abstract is a strong signal
     if CANCER_STYLE_PATTERN.search(head):
         return True
@@ -94,7 +94,11 @@ def detect_article_type(text):
         if re.search(pattern, head):
             return label
 
-    # 2. Structural evidence of research article?
+    # 2. Explicit research banner? (check first 1000 chars for article type headers)
+    if re.search(r"(?im)^[ \t]*(?:original\s+research|research\s+article|original\s+article|brief\s+research\s+report|original\s+research\s+article)\s*$", head):
+        return "research"
+
+    # 3. Structural evidence of research article?
     if has_research_structure(text):
         return "research"
 
@@ -277,13 +281,16 @@ def process_journal(journal):
             continue
 
         art_type = detect_article_type(text)
-        if art_type != "research":
+        # Only skip papers that are definitively non-research.
+        # "unknown" papers get processed — the <20 sentence filter in
+        # segment_whole.py will catch short non-research content.
+        NON_RESEARCH_TYPES = {"review", "editorial", "letter", "correction",
+                              "erratum", "retraction", "book_review",
+                              "memoriam", "commentary", "announcement"}
+        if art_type in NON_RESEARCH_TYPES:
             non_research += 1
             out_path = os.path.join(dst, filename)
-            reason = (
-                f"non_research:{art_type}" if art_type != "unknown"
-                else "unknown:no_banner_no_structure"
-            )
+            reason = f"non_research:{art_type}"
             with open(out_path, "w") as f:
                 json.dump({
                     "paper_id": data.get("paper_id", filename.replace(".json", "")),

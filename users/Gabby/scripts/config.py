@@ -1,50 +1,29 @@
-# scripts/config.py
-# Configuration for the voice classification pipeline (Wiley + spaCy).
-
+# config.py - OUP version. Reads config.yaml dynamically.
 import os
-from dotenv import load_dotenv
+import yaml
 
-load_dotenv()
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+USER_DIR = os.path.dirname(SCRIPT_DIR)
+CONFIG_PATH = os.path.join(USER_DIR, "config.yaml")
 
-# ---------- API KEYS ----------
-WILEY_TDM_TOKEN = os.getenv("WILEY_TDM_TOKEN")
+if not os.path.exists(CONFIG_PATH):
+    raise SystemExit(f"Missing config.yaml at {CONFIG_PATH}")
 
-# ---------- BASE PATHS ----------
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-JOURNALS_DIR = os.path.join(BASE_DIR, "journals")
+with open(CONFIG_PATH) as f:
+    _cfg = yaml.safe_load(f)
 
-# ---------- TARGET JOURNALS ----------
-TARGET_JOURNALS = {
-    "Cancer": "0008-543X",
-    "Clinical_Genetics": "0009-9163",
-    "Developmental_Dynamics": "1058-8388",
-    "Ecology": "0012-9658",
-    "Molecular_Ecology": "0962-1083",
-    "Journal_of_Neuroscience_Research": "0360-4012",
-    "Molecular_Microbiology": "0950-382X",
-}
+TARGET_JOURNALS = {}
+for entry in _cfg.get("journals", []):
+    name = entry.get("name", "").strip()
+    if not name:
+        continue
+    key = name.replace(" ", "_").replace("/", "_")
+    TARGET_JOURNALS[key] = entry.get("issn", "")
 
-# ---------- WILEY DOI PREFIXES ----------
-WILEY_DOI_PREFIXES = ("10.1002/", "10.1111/")
+TARGET_YEARS = _cfg.get("years", [2005, 2010, 2015, 2020, 2025])
+PAPERS_PER_YEAR = _cfg.get("papers_per_year", 40)
+JOURNAL_YEARS = {j: TARGET_YEARS for j in TARGET_JOURNALS}
 
-def is_wiley_doi(doi):
-    return doi.startswith(WILEY_DOI_PREFIXES)
-
-# ---------- TARGET YEARS ----------
-TARGET_YEARS = [2005, 2010, 2015, 2020, 2025]
-PAPERS_PER_YEAR = 40
-
-JOURNAL_YEARS = {
-    "Cancer":                            [2005, 2010, 2015, 2020, 2025],
-    "Clinical_Genetics":                 [2005, 2010, 2015, 2020, 2025],
-    "Developmental_Dynamics":            [2005, 2010, 2015, 2020, 2025],
-    "Ecology":                           [2005, 2010, 2015, 2020, 2025],
-    "Molecular_Ecology":                 [2005, 2010, 2015, 2020, 2025],
-    "Journal_of_Neuroscience_Research":  [2005, 2010, 2015, 2020, 2025],
-    "Molecular_Microbiology":            [2005, 2010, 2015, 2020, 2025],
-}
-
-# ---------- SUBFOLDER NAMES ----------
 RAW_PAPERS_SUBDIR = "raw_papers"
 RAW_TEXT_SUBDIR = "raw_text"
 SECTIONS_SUBDIR = "sections"
@@ -53,15 +32,20 @@ SENTENCES_SUBDIR = "sentences"
 CLASSIFICATIONS_SUBDIR = "classifications"
 SCORES_SUBDIR = "scores"
 
+# Whole-paper pipeline subdirs
 WHOLE_PAPERS_SUBDIR = "whole_papers"
+SEGMENTS_WHOLE_SUBDIR = "segments_whole"
 SENTENCES_WHOLE_SUBDIR = "sentences_whole"
 CLASSIFICATIONS_WHOLE_SUBDIR = "classifications_whole"
 SCORES_WHOLE_SUBDIR = "scores_whole"
 
-# ---------- PIPELINE SETTINGS ----------
-MIN_SENTENCE_WORDS = 5
-TARGET_SECTIONS = ["introduction", "methods", "results", "discussion"]
+_nlp_cfg = _cfg.get("nlp", {})
+SPACY_MODEL = _nlp_cfg.get("spacy_model", "en_core_web_sm")
+MIN_SENTENCE_WORDS = int(_nlp_cfg.get("min_sentence_words", 5))
+TARGET_SECTIONS = _nlp_cfg.get("target_sections",
+    ["introduction", "methods", "results", "discussion"])
 
+JOURNALS_DIR = os.path.join(USER_DIR, "journals")
 
 def journal_path(journal, subdir=None):
     base = os.path.join(JOURNALS_DIR, journal)
@@ -69,22 +53,21 @@ def journal_path(journal, subdir=None):
         return os.path.join(base, subdir)
     return base
 
-
 def ensure_journal_folders(journal):
-    for sub in [
-        RAW_PAPERS_SUBDIR, RAW_TEXT_SUBDIR, SECTIONS_SUBDIR,
-        CLEANED_SUBDIR, SENTENCES_SUBDIR, CLASSIFICATIONS_SUBDIR, SCORES_SUBDIR,
-        WHOLE_PAPERS_SUBDIR, SENTENCES_WHOLE_SUBDIR,
-        CLASSIFICATIONS_WHOLE_SUBDIR, SCORES_WHOLE_SUBDIR,
-    ]:
+    for sub in [RAW_PAPERS_SUBDIR, RAW_TEXT_SUBDIR, SECTIONS_SUBDIR,
+                CLEANED_SUBDIR, SENTENCES_SUBDIR,
+                CLASSIFICATIONS_SUBDIR, SCORES_SUBDIR,
+                WHOLE_PAPERS_SUBDIR, SEGMENTS_WHOLE_SUBDIR,
+                SENTENCES_WHOLE_SUBDIR,
+                CLASSIFICATIONS_WHOLE_SUBDIR, SCORES_WHOLE_SUBDIR]:
         os.makedirs(journal_path(journal, sub), exist_ok=True)
 
+DOI_PREFIXES = ("10.3389/",)
+
+def is_target_doi(doi):
+    if not DOI_PREFIXES:
+        return True
+    return doi.startswith(DOI_PREFIXES)
 
 for j in TARGET_JOURNALS:
     ensure_journal_folders(j)
-
-# ---------- NLP SETTINGS ----------
-SPACY_MODEL = "en_core_web_lg"
-
-# ---------- NLP SETTINGS ----------
-SPACY_MODEL = "en_core_web_lg"

@@ -311,7 +311,8 @@ def process_journal(journal):
         if missing:
             result["_flagged"] = True
             result["_missing_sections"] = missing
-            # _skip removed: papers without all sections are still processed.
+            # _skip removed: do NOT skip papers for missing sections.
+            # Downstream stages compute voice over whatever sections exist.
             skipped_papers.append(paper_id)
 
         with open(out_path, "w") as f:
@@ -319,7 +320,7 @@ def process_journal(journal):
         processed += 1
 
     print(f"  Processed: {processed}, Skipped (already existed): {skipped_existing}")
-    print(f"  Skipped (missing sections): {len(skipped_papers)}")
+    print(f"  Flagged (missing sections, still processed): {len(skipped_papers)}")
 
 
 def main():
