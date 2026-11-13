@@ -94,8 +94,18 @@ def detect_article_type(text):
         if re.search(pattern, head):
             return label
 
-    # 2. Explicit research banner? (check first 1000 chars for article type headers)
-    if re.search(r"(?im)^[ \t]*(?:original\s+research|research\s+article|original\s+article|brief\s+research\s+report|original\s+research\s+article)\s*$", head):
+    # 2. Explicit research banner? (Article + Original Research variants)
+    research_banner = re.compile(
+        r"(?im)^[ \t]*(?:"
+        r"original\s+research|"
+        r"original\s+article|"
+        r"original\s+paper|"
+        r"research\s+article|"
+        r"research\s+paper|"
+        r"article"
+        r")\s*$"
+    )
+    if research_banner.search(head):
         return "research"
 
     # 3. Structural evidence of research article?
@@ -115,6 +125,12 @@ ABSTRACT_HEADING = re.compile(
 )
 CANCER_ABSTRACT_START = re.compile(
     r"^[ \t]*BACKGROUND[.:]\s",
+    re.MULTILINE,
+)
+# Nature Comms: after the header block, body starts with the Introduction (unlabeled)
+# Anchor: skip past "www.nature.com/naturecommunications" + blank line
+NATURE_COMMS_START = re.compile(
+    r"www\.nature\.com/naturecommunications[^\n]*\n[\s\S]{0,300}?\n\s*\n",
     re.MULTILINE,
 )
 FIRST_BODY_HEADING = re.compile(
@@ -172,12 +188,15 @@ def extract_body(text):
 
     abstract_match = ABSTRACT_HEADING.search(text)
     cancer_match = CANCER_ABSTRACT_START.search(text)
+    nature_match = NATURE_COMMS_START.search(text)
     body_match = FIRST_BODY_HEADING.search(text)
 
     if abstract_match:
         body_start = abstract_match.end()
     elif cancer_match:
         body_start = cancer_match.start()
+    elif nature_match:
+        body_start = nature_match.end()
     elif body_match:
         body_start = body_match.start()
     else:
