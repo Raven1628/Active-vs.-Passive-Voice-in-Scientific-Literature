@@ -21,10 +21,26 @@ BLOCKED_SUBTYPES = {
 }
 
 def is_likely_research_article(item):
-    """Filter to actual original research papers."""
+    """Filter to actual original research papers.
+
+    Two heuristics are applied to catch editorials/commentaries:
+      - page span < 3 pages
+      - references-count < 15
+
+    But both were calibrated on modern papers. For pre-2010 papers, Crossref
+    often has no subtype, no references-count, and short-format research
+    articles (Applications Notes, etc.) that span only 2-3 pages. So:
+      - If subtype is missing, skip the length heuristics entirely (title
+        blacklist still applies)
+      - For reference-count, only reject when the count is explicitly in
+        (0, 15) — 0 or None means "metadata missing", not "editorial"
+    """
+    subtype = (item.get("subtype") or "").strip().lower()
+
     title = (item.get("title") or [""])[0].strip()
     title_lower = title.lower()
 
+    # --- Title blacklist (always applied) ---
     blocked_prefixes = (
         "correction", "corrigendum", "erratum", "retraction",
         "editorial", "reply", "response", "comment on", "commentary on",
@@ -44,6 +60,11 @@ def is_likely_research_article(item):
     if any(w in title_lower for w in blocked_anywhere):
         return False
 
+    # --- Pre-2010 papers: skip length heuristics ---
+    if not subtype:
+        return True
+
+    # --- Page span check (modern papers only) ---
     page = (item.get("page") or "").strip()
     if page:
         if "-" in page:
@@ -60,11 +81,12 @@ def is_likely_research_article(item):
             if digits and len(digits) <= 4:
                 return False
 
-    # Reference-count check (editorials/commentaries cite <15 refs)
+    # --- Reference-count check (only if explicitly small but nonzero) ---
     ref_count = item.get("references-count")
     if ref_count is not None:
         try:
-            if int(ref_count) < 15:
+            n = int(ref_count)
+            if 0 < n < 15:
                 return False
         except (ValueError, TypeError):
             pass
@@ -76,7 +98,6 @@ def fetch_dois_for_journal_year(issn, year, count):
     params = {
         "filter": f"from-pub-date:{year}-01-01,until-pub-date:{year}-12-31,type:journal-article",
         "rows": count * 5,
-        "select": "DOI,title,type,page,references-count,abstract,subject",
         "mailto": "doilist39@gmail.com",
     }
     try:

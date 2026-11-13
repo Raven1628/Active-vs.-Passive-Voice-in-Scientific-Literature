@@ -46,30 +46,77 @@ EXCLUDE_TITLE_KEYWORDS = [
 
 
 def is_likely_research_article(item):
-    """Return True only if this Crossref item looks like a primary research article."""
-    title = (item.get("title") or [""])[0] if item.get("title") else ""
+    """Filter to actual original research papers.
+
+    Two heuristics are applied to catch editorials/commentaries:
+      - page span < 3 pages
+      - references-count < 15
+
+    But both were calibrated on modern papers. For pre-2010 papers, Crossref
+    often has no subtype, no references-count, and short-format research
+    articles (Applications Notes, etc.) that span only 2-3 pages. So:
+      - If subtype is missing, skip the length heuristics entirely (title
+        blacklist still applies)
+      - For reference-count, only reject when the count is explicitly in
+        (0, 15) — 0 or None means "metadata missing", not "editorial"
+    """
     subtype = (item.get("subtype") or "").strip().lower()
 
-    # 1. If subtype is known and blocked, exclude immediately
-    if subtype in BLOCKED_SUBTYPES:
+    title = (item.get("title") or [""])[0].strip()
+    title_lower = title.lower()
+
+    # --- Title blacklist (always applied) ---
+    blocked_prefixes = (
+        "correction", "corrigendum", "erratum", "retraction",
+        "editorial", "reply", "response", "comment on", "commentary on",
+        "letter", "letters", "in this issue", "in memoriam",
+        "obituary", "book review", "review of", "proceedings of",
+        "abstracts from", "issue information", "front matter", "back matter",
+        "editor's choice", "highlights from", "correction to:",
+        "erratum to:", "corrigendum to:", "retraction to:",
+    )
+    if any(title_lower.startswith(p) for p in blocked_prefixes):
         return False
 
-    # 2. If subtype is known and allowed, accept
-    if subtype in ALLOWED_SUBTYPES:
+    blocked_anywhere = (
+        "corrigendum", "erratum to", "correction to", "retraction to",
+        "table of contents", "in memoriam",
+    )
+    if any(w in title_lower for w in blocked_anywhere):
+        return False
+
+    # --- Pre-2010 papers: skip length heuristics ---
+    if not subtype:
         return True
 
-    # 3. If subtype is unknown/empty, fall back to title heuristic
-    if not title:
-        return False  # no title at all → probably a fragment
-    tl = title.lower()
-    if any(kw in tl for kw in EXCLUDE_TITLE_KEYWORDS):
-        return False
-    # Titles with "correction", "erratum" etc. anywhere are excluded above
-    # Titles under 15 chars are usually not research papers
-    if len(title) < 15:
-        return False
-    return True
+    # --- Page span check (modern papers only) ---
+    page = (item.get("page") or "").strip()
+    if page:
+        if "-" in page:
+            try:
+                s, e = page.split("-", 1)
+                sn = int(''.join(c for c in s if c.isdigit()) or 0)
+                en = int(''.join(c for c in e if c.isdigit()) or 0)
+                if (en - sn) < 3:
+                    return False
+            except (ValueError, AttributeError):
+                pass
+        else:
+            digits = ''.join(c for c in page if c.isdigit())
+            if digits and len(digits) <= 4:
+                return False
 
+    # --- Reference-count check (only if explicitly small but nonzero) ---
+    ref_count = item.get("references-count")
+    if ref_count is not None:
+        try:
+            n = int(ref_count)
+            if 0 < n < 15:
+                return False
+        except (ValueError, TypeError):
+            pass
+
+    return True
 
 def fetch_dois_for_journal_year(issn, year, count):
     url = f"{CROSSREF_BASE}/{issn}/works"
