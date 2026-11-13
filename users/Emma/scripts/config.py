@@ -62,7 +62,13 @@ def ensure_journal_folders(journal):
                 CLASSIFICATIONS_WHOLE_SUBDIR, SCORES_WHOLE_SUBDIR]:
         os.makedirs(journal_path(journal, sub), exist_ok=True)
 
-DOI_PREFIXES = ("10.1080/",)
+DOI_PREFIXES = (
+    "10.1080/",  # Taylor & Francis (current)
+    "10.3109/",  # Informa Healthcare (legacy, now T&F)
+    "10.1081/",  # Marcel Dekker (legacy, now T&F)
+    "10.1191/",  # Arnold / Hodder (legacy, now T&F)
+    "10.1057/",  # Palgrave Macmillan (legacy, now T&F)
+)
 
 def is_target_doi(doi):
     if not DOI_PREFIXES:
