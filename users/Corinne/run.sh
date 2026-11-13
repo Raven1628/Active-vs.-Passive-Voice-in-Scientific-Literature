@@ -1,5 +1,5 @@
 #!/bin/bash
-# Corrinne's pipeline — Elsevier, section-based processing
+# Corinne's pipeline — Elsevier, section-based processing
 
 cd "$(dirname "$0")"
 S="scripts"

@@ -1,4 +1,4 @@
-# users/Corrinne/scripts/retrieve_elsevier.py
+# users/Corinne/scripts/retrieve_elsevier.py
 # Downloads PDFs from Elsevier ScienceDirect using an API key.
 
 import os
