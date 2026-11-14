@@ -22,33 +22,47 @@ def sanitize(doi):
 
 def doi_to_cdn_url(doi):
     """Convert MDPI DOI to static CDN PDF URL.
-    
-    DOI: 10.3390/molecules25010181
-    CDN: https://mdpi-res.com/d_attachment/molecules/molecules-25-00181/
-         article_deploy/molecules-25-00181.pdf
+
+    Two DOI formats are supported:
+
+    Modern (2007+):
+      DOI: 10.3390/molecules25010181
+      CDN: https://mdpi-res.com/d_attachment/molecules/molecules-25-00181/
+           article_deploy/molecules-25-00181.pdf
+
+    Legacy i-prefix (IJMS, 2000-2007):
+      DOI: 10.3390/i6010045  -> volume 6, issue 01, article 45
+      CDN: https://mdpi-res.com/d_attachment/ijms/ijms-06-00045/
+           article_deploy/ijms-06-00045.pdf
     """
     if not doi.startswith("10.3390/"):
         return None
 
-    # Strip prefix
-    code = doi.replace("10.3390/", "")  # e.g., "molecules25010181"
+    code = doi.replace("10.3390/", "")
 
-    # Parse: journal_code + volume(2) + issue(2) + article(4)
-    # Journal codes can have digits (e.g., "s20101234" for Sensors)
-    # Match greedily: journal letters, then 2-digit volume, 2-digit issue, 4+ digit article
+    # --- Legacy i-prefix: i{vol}{issue}{article}, e.g. i6010045 ---
+    # Volume is 1-2 digits, issue is 2 digits, article is the rest.
+    # i6010045 -> vol=6, issue=01, article=0045
+    # i1001001 -> vol=10, issue=01, article=001 (if ever encountered)
+    m_legacy = re.match(r'^i(\d{1,2})(\d{2})(\d{4})$', code)
+    if m_legacy:
+        vol, _issue, article = m_legacy.groups()
+        vol = vol.zfill(2)
+        article = article.zfill(5)
+        base = f"ijms-{vol}-{article}"
+        return (f"https://mdpi-res.com/d_attachment/ijms/{base}/"
+                f"article_deploy/{base}.pdf")
+
+    # --- Modern format: journal(YY)(II)(AAAA+) ---
     match = re.match(r'^([a-z]+)(\d{2})(\d{2})(\d{4,})$', code)
     if not match:
-        # Try alternative: journal contains digits
         match = re.match(r'^([a-z][a-z0-9]*?)(\d{2})(\d{2})(\d{4,})$', code)
         if not match:
             return None
 
     journal, vol, issue, article = match.groups()
-
-    # Article number needs to be 5 digits (zero-padded)
     article_padded = article.zfill(5)
 
-    # CDN URL
     return (f"https://mdpi-res.com/d_attachment/{journal}/"
             f"{journal}-{vol}-{article_padded}/article_deploy/"
             f"{journal}-{vol}-{article_padded}.pdf")
