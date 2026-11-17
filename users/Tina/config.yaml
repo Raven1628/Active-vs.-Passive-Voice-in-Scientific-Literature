@@ -14,8 +14,8 @@ journals:
     issn: "1465-4644"
   - name: "Mathematical Medicine and Biology"
     issn: "1477-8599"
-  - name: "Briefings in Bioinformatics"
-    issn: "1467-5463"
+  - name: "Nucleic Acids Research"
+    issn: "0305-1048"
 
 years: [2005, 2010, 2015, 2020, 2025]
 papers_per_year: 40
