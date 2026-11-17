@@ -1,27 +1,27 @@
 project:
-  name: "Voice Analysis"
+  name: "Springer Nature Voice Analysis"
 
 journals:
-  - name: "Journal 1"
-    issn: ""
-  - name: "Journal 2"
-    issn: ""
-  - name: "Journal 3"
-    issn: ""
-  - name: "Journal 4"
-    issn: ""
-  - name: "Journal 5"
-    issn: ""
-  - name: "Journal 6"
-    issn: ""
-  - name: "Journal 7"
-    issn: ""
+  - name: "Nature"
+    issn: "1476-4687"
+  - name: "Nature Communications"
+    issn: "2041-1723"
+  - name: "Scientific Reports"
+    issn: "2045-2322"
+  - name: "Nature Genetics"
+    issn: "1546-1718"
+  - name: "Nature Neuroscience"
+    issn: "1546-1726"
+  - name: "Nature Medicine"
+    issn: "1546-170X"
+  - name: "Nature Chemical Biology"
+    issn: "1552-4469"
 
 years: [2005, 2010, 2015, 2020, 2025]
 papers_per_year: 40
 
 fetching:
-  api_source: "placeholder"
+  api_source: "springer_nature"
   use_issn: true
 
 nlp:
