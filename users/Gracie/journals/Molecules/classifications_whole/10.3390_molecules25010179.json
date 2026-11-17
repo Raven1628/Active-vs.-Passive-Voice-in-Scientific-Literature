@@ -1,0 +1,471 @@
+{
+  "paper_id": "10.3390_molecules25010179",
+  "journal": "Molecules",
+  "classifications": [
+    {
+      "sentence": "Introduction \nPetroleum-based plastics have serious ecological and social impacts because of their nondegradable nature and the leaching of carcinogenic substances when exposed to scratch or heat .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The bio-based materials provide copious chances to design composites with advanced biofunctionalities and minimize our reliance on petroleum-based resources, such as combining spider \nsilk proteins with the cellulose nanofibrils , flow-assisted organization of cellulose nanofibrils into \nmacroscale fibers to exceed their mechanical properties , and the synthesis of multifunctional \nhollow porous carbon capsules that are encapsulated with silver nanoparticles for antimicrobial and \nanti-bioadhesion applications .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Lately, humanity has realized the necessity of supplanting non-\n\nMolecules 2020, 25, 179 \n2 of 21 \n \nbiodegradable ordinary plastics with eco-friendly bioplastic options .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Polyhydroxyalkanoates \n(PHAs) are intracellular biopolymers that take on an extraordinary significance because of their \nphysicochemical, biodegradable, and biocompatible properties .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "PHAs are accumulated in \nbacteria, archaea, yeasts, and fungi under stress conditions, where the carbon source is plentiful and \nother nutrients are limited, to be the key mechanism for microbial survival .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Despite there being \naround 150 diverse PHA structures recognized so far, poly-\u03b2-hydroxybutyrate (PHB) has attracted \nmore attention than the other types because of its physical, mechanical, and immunologically \nproperties, which make it a strong candidate for use in various applications in agriculture, food, and \nmedical fields .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Advanced uses of bioplastics are still evolving, especially the development of \nfood-borne pathogen-resistant bioplastics and the production of bioplastic nanoparticles used in the \ndevelopment of drug delivery systems .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "PHB is synthesized through the condensation of two \nAcetyl-CoA molecules to Acetoacetyl-CoA by the Acetyl-CoA-acetyltransferase, which is then \nreduced to (R)-3-hydroxybutyrate-CoA by the acetoacetyl-CoA-reductase, and then the \npolymerization of (R)-3-hydroxybutyrate-CoA to PHB by the PHB synthase .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Microbial PHB \nproduction and its chemical characterization have not been investigated in detail .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The \nindustrial bioprocess of PHB is still developing, and microbial resources are still being explored for \nextensive production and commercialize issues .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The exploitation of renewable materials as a \nsource of valuable commodities as microbial natural products have acquired great attention recently, \nas this offers an alternative to the environmental problems caused by this waste.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Therefore, the \nconcept of utilizing date palm waste to develop low-cost PHB fermentation has been receiving \nextensive attention .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "As microbial strains accumulate PHB as a survival mechanism, an ecosystem \nwith extreme stress conditions, such as a marine environment could be containing superior PHB \nproducers .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Marine bacteria have recently attracted attention for this purpose, including \nAlteromonas lipolytica, Bacillus megaterium, Halomonas campaniensis, Pseudomonas spp., Aeromonas spp., \nCupriavidus spp.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Archaebacteria, Methylobacteria, and Pseudomonas .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The Red Sea environment has \nnot been explored enough for the purposes of its microbial diversity, biotechnological processes, and \nbiopolymer production .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Compared to other marine environments, the Red Sea is considered an \nextraordinary marine ecosystem because of its physical and geochemical parameters and its relatively \nsecluded location away from other marine environments .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The rhizosphere marine bacteria \nisolated from these conditions are a major source of novel and unique metabolites .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Mangroves a \nunique wetland ecosystem in Saudi Arabia that play various ecological roles, but that are currently \nnot effectively managed for research and development.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "They have a huge root system with a high \ndiversity of microbial communities able to produce unique bio-products .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The marine bacteria, \nVibrio spp, Bacillus thuringiensis and Bacillus sp capable of effectively producing PHB, were isolated \nfrom mangrove soil .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The polymer chain of PHB is formed by ester bonds forming between \nthe carboxyl group and an available hydroxyl group of nearby monomers .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "To determine their \nfunctional groups and chemical structure, the biopolymers were characterized by various \ninstrumental techniques, Fourier-transform infrared spectroscopy (FTIR), Nuclear magnetic \nresonance (NMR), and Gas chromatography-mass spectrometry (GC-MS) .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Accordingly, this \nstudy focuses on the isolation and screening of PHB-producing bacteria from the mangrove s\u2019 \nrhizospheres in the Red Sea, Saudi Arabia, and explores the means of optimizing their biopolymer \nproduction, as well as studying its chemical characterization. \n2.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Isolation of Marine Bacteria \nA total of 48 bacterial isolates were obtained from the mangrove rhizospheres of the two Red \nSea coasts; Al-Madhaya and Al-Marabi.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "These sites were selected because they had not been explored \npreviously.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The highest number of bacteria were isolated from the mangrove rhizosphere from Al-\nMarabi coast (31 isolates), and the lowest number (17 isolates) from Al-Madhaya coast.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The \nappearance of isolates in the various habitats may be affected by the predominant environment and \nculture conditions .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Mangrove grows in the southern region of Saudi Arabia is generally dense \n\nMolecules 2020, 25, 179 \n3 of 21 \n \nbecause of the tropical climate, higher rainfall, and less saline seawater .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "However, sewage \ndisposal on the Al-Madhaya coast may be the reason for negative effects on the mangroves and \nmicrobial communities in their rhizosphere.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "All of the bacterial isolates were assigned code numbers \nbased on their site of isolation. \n2.2.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Qualitative Screening and Selection of Poly-\u03b2-hydroxybutyrate-Producing Marine Bacteria \nThe bacterial isolates were primarily screened using Sudan Black-B stain.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The colony staining \nmethod was employed for the rapid detection of PHB, followed by microscopic examination.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Out of \nthe 48 bacterial isolates, only 14 were able to accumulate the PHB granules.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The second screening was \nconducted by Acridine orange dye under a fluorescent microscope (Figure 1).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The results show that \nfour bacterial isolates have a high ability to produce PHB; KKU-MD12 and KKU-MD13 from Al-\nMadhaya coast, and KKU-MR35 and KKU-MR42 from the Al-Marabi coast.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "These findings were \nconsidered additional evidence for the specificity of the Sudan Black-B and Acridine orange staining \napproach to screen new bacterial isolates producing an intracellular lipid biopolymer.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The dark blue \ncolored colonies stained by Sudan Black-B , and yellow colored granules inside the bacterial cells \nby Acridine orange were observed in similar studies, which was taken as a positive indication \nfor PHB production.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The lipophilic staining with Sudan Black-B has a high sensitivity in PHB \nscreening, it reveals clearly the intracellular lipid matter in the form of cytoplasmic inclusions or \nmaterials associated with the structural elements of the cells, which previously have not been seen or \neven suspected .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "On the other hand, using the fluorescent dye Acridine orange, differentiation \nbetween the living cells, fat droplets, and dead cells becomes very easy, because the fluorescence of \nthe different wavelengths appears after staining .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Our investigation with respect to PHBproducing bacteria demonstrates that the bacterial communities isolated from the samples of \nmangrove rhizospheres were not quite the same as those recorded in other marine sources.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "On \naccount of the high rate of evaporation, absence of river inflows, low degree of sedimentation, and \nlow nutrients, the Red Sea was considered to be an exceptional environment, which encourages the \nbiodiversity of microbial species to be able to accumulate PHB in order to survive under starvation \nconditions .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The maximum PHB production was recorded at 2% (w/v) NaCl, reaching 4.67 g/L (Figure 7).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "This result was partially proportioned with the recorded salinity of the Al-Madhaya coast samples \n(35.1 ppt), which indicated that this isolate belongs to slight halophiles.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Most of the marine microbes \nwere slight and moderate halophiles, while extreme halophiles inhabit hypersaline environments \nsuch as the deep-sea and underground salt mines .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "This finding reflects the necessity of \ncontrolling the salinity of the medium within a proper range to prevent high osmotic stress exerting \nan effect on PHB production , where increasing the salt to 6% was caused by a decline in PHB \nproduction by 78.58%.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The salt concentration affecting the PHB accumulation was varied among the \nbacterial strains: 5% for Vibrio proteolyticus , 2.5% for Nacardiopsis potens , 3% for Bacillus sp CS-\n605 , 2% for Vibrio harveyi , and 1.5% for Vibrio azureus .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Molecules 2020, 25, 179 \n9 of 21 \n \nNaCl concentration (% w/v)\nPHB (g/L), Biomass (g/L)\nPHB\nBiomass\na\nb\nc\nd\ne\na\nb\nb\nc\nd\n \nHexanoic acid, 2-(1-methylethyl)-5-oxo-, methyl ester; and Decanoic acid, 8-methyl-, methyl ester.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Molecules 2020, 25, 179 \n16 of 21 \n \nModel Infinity, Burnsville, MN, USA) . \n3.2.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Isolation of PHB-Producing Marine Bacteria \nThe samples were sequentially diluted and 100 \u00b5l of the dilution was spread on the Zobell \nmarine agar .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The medium contained (g/L) the following: peptone 5.0, yeast extract 1.0, ferric \ncitrate 0.1, NaCl 19.45, MgCl2 8.8, Na2SO4 3.240, CaCl2 1.8, KCl 0.55, NaHCO3 0.160, KBr 0.080, SrCl2 \n0.034, H3BO3 0.022, Na2SiO3 0.004, NaF 0.0024, NH4NO3 0.0016, Na2HPO4 0.008, and agar 15.0 (pH = \n7.5), and was enhanced with 1% glucose as the carbon source.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "All of the inoculated plates were \nincubated at 35 \u00b0C for 72 h at 150 rpm in a shaking incubator (Shell Lab, SSI5, Cornelius, NC, USA).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The bacterial colonies that appeared were purified by using a repetitive streaking method, and were \npreserved at 4 \u00b0C on Zobell marine agar slants. \n3.3.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Screening of PHB-Producing Bacteria \n3.3.1.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Screening by Sudan Black-B Stain \nTo evaluate the capacity of the marine isolates to accumulating PHB, the primary screening by \nSudan Black B staining was conducted.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The culture plates were covered with an alcoholic solution of \nSudan Black B (0.05%) for 30 min, and then washed with ethanol.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The colonies that appeared in black \nor dark blue were considered to be PHB producers.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "A smear of each isolate was also stained with \nSudan Black B (0.3%, w/v) for 20 min, then immersed in xylene before being stained with aqueous \nsafranin (0.5%, w/v).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The slides were then washed with distilled water and air-dried . \n3.3.2.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Screening by Fluorescence Staining Method \nThe bacterial isolates showing a positive result in the previous test were screened for a second \ntime with a fluorescent dye, Acridine orange.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "First, 50 \u00b5L of dye was added to 10 \u00b5L of 72 h old \nbacterial culture, and incubated for 30 min at 35 \u00b0C.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The cultures were centrifuged for 5 min at 6000 \nrpm, after that the smear was prepared and observed by a fluorescent microscope (Nikon, Eclipse, \ne400, Tokyo, Japan).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The appearance of yellow-colored granules inside the cell was taken as a positive \nindication of PHB accumulation . \n3.3.3.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Quantitative Screening of PHB Production \nThe promising isolates were quantitatively screened for the accumulation of PHB.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "First, 1 mL of \na 24 h old culture (2 \u00d7 108 CFU/mL) was inoculated in a 250 mL Erlenmeyer flask containing 50\u2009mL of \nthe Zobell marine broth, and incubated for 72 h at 35 \u00b0C/150 rpm, then the extracted PHB was \nestimated.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Molecules 2020, 25, 179 \n17 of 21 \n \n3.4.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Extraction and Quantitative Estimation of PHB \nTo extract the PHB granules, the dry bacterial pellets were washed with acetone and ethanol, \nthen suspended in 10 mL of 4% NaClO and incubated for 60 min at 37 \u00b0C.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The mixture was \ncentrifuged (5000 rpm for 30 min) to sediment the PHB granules.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The polymer was washed with \nacetone and ethanol followed by dissolving in hot chloroform.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The cell residues filtered out using \nWhatman filter paper so that only PHB was presented in chloroform solution, which evaporated in a \nhot air oven at 40 \u00b0C, leaving the PHB powder .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "To quantify the PHB, the stock solution of the \nextracted PHB was prepared by dissolving 50 mg PHB in 10 mL of concentrated sulfuric acid.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The \nstandard solutions of pure PHB were set up by diluting aliquots of the stock solution (20 to 200 \u00b5g/ \nmL).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Then, 10 mL of sulfuric acid was added to the extracted PHB in a water bath (100 \u00b0C/10 min) to \nconvert it into crotonic acid.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The absorbance of the extracted PHB has recorded a spectrophotometry \n(PerkinElmer Lambda 25 UV/VIS spectrophotometer, Waltham, MA, USA) at 235 nm . \n3.5.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Molecular Identification of the Promising PHB-Producing Isolates \n3.5.1.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "DNA Extraction and Polymerase Chain Reaction (PCR) Amplification of 16S rRNA Gene \nThe bacterial genomic DNA of the promising isolates was extracted from 5 mL of the bacterial \ncultures grown overnight in broth medium, using a modified QIAamp DNA Mini Kit (Qiagen Inc., \nValencia, CA, USA) .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The extracted DNA from each bacterial isolate was used as a template for \nthe amplification of the 16S rRNA gene using the universal primers 5\u2032 CCA GCA GCC GCG GTA \nATA CG 3\u2032 and 5\u2032ATC GG(C/T) TAC CTT GTT ACG ACT TC 3\u2032.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "An electrophoresis unit (30 min at \n150 V) was used for the gel running and migration of the amplified genes.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Using a gel documentation \nsystem, the migrated bands were seen under UV light.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "To verify the presence of properly sized \namplicons, the PCR product for each isolate was compared against a 1-kb DNA ladder. \n3.5.2.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Sequencing and GenBank Accession Numbers \nA product of the right size was purified with a Taka R agarose gel DNA purification kit (version \n2.0) (Qiagen Inc., Valencia, CA, USA), and sequenced in both directions using an ABI 3730 automated \nsequencer (Macrogen, Korea).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The obtained sequence of the isolate was aligned and contrasted with \nthe deposited sequences in GenBank .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "To determine the taxonomic position of the isolate, a \nphylogenetic tree was built with MEGA version 5.10 program, Pennsylvania, USA, using a neighborjoining algorithm.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In addition, the Jukes-Cantor distance estimation strategy with bootstrap analyses \nfor 1000 replicates was performed.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The nucleotide sequences of the amplified 16S rRNA genes of the \nisolates were deposited in the GenBank nucleotide sequence databases. \n3.6.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Optimization of PHB Production \nThe fermentation process was performed in a 250 mL Erlenmeyer flask containing 50 mL of \nZobell marine broth (pH = 7.5) in an incubated shaker (35 \u00b0C/ 150 rpm) for varying periods (24 h to \n144 h).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The effect of various factors on the PHB production were optimized; pH = 6.5\u20139.0, incubation \ntemperature (25\u201345 \u00b0C), NaCl concentration (2\u201310% w/v), carbon sources (glucose, maltose, sucrose, \narabinose, fructose, and date molasses), nitrogen sources (peptone, ammonium chloride, glycine, \npotassium nitrate, urea, yeast extract, and ammonium sulfate), and C:N (w/w) ratios of glucose and \npeptone (4.7:1, 9.2:1, 18.4:1, and 36.8:1).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The cell dry weight (biomass) was determined by the collected \ncell pellets by centrifugation (6000 rpm/10 min), dried in an oven at 60 \u00b0C, and then expressed as g/L.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "All of the experiments were performed in triplicate. \n3.7.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Characterization of Extracted PHB \n3.7.1.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Fourier Transform Infrared Spectroscopy (FTIR) Analysis \nFirst, 1.0 mg of extracted PHB was dissolved in 5 mL of chloroform, and one drop of the mixture \nwas added to a KBr disk.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The spectrum was observed after the evaporation of the solvent under a \n\nMolecules 2020, 25, 179 \n18 of 21 \n \nvacuum at 400\u20134000 cm\u22121, using an IR double beam spectrophotometer (Shimandzu, Japan).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The linescan spectra were based on 32 scans and a resolution of 4 cm\u22121 . \n3.7.2.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Nuclear Magnetic Resonance (NMR) Analysis \n1H NMR and 13C NMR analyses were performed using an NMR 500 MHz Ultra Shield Bruker \nspectrophotometer (San Jose, CA, USA) and on an ECA-500 II Jeol spectrophotometer (JEOL Ltd., \nTokyo, Japan).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "First, 5.0 mg of the extracted PHB was dissolved in deuterated chloroform (CDCl3), \nand the solution was analyzed at 500 MHz on a Bruker and Jeol spectrophotometer.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Tetramethyl \nsaline (TMS) was used as an external reference . \n3.7.3.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Gas Chromatography-mass Spectrometry (GC-MS) Analysis \nFor the methanolysis of the PHB, the samples were suspended in 1.0 mL chloroform and 1.0 mL \nH2SO4/methanol (15:85) in a screw-capped tube, and then heated to 100 \u00b0C for 2 h.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "After cooling, 0.5 \nmL of demineralized water was added, and the solution was vortexed for 1 min.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The organic phase \ncontaining the resulting methyl esters\u2019 monomers were identified by Varian Saturn 2100T GC-MS, \nequipped with a Saturn 2100 mass detector (Mundelein, IL, USA).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The analysis was performed using \na CP-SIL 8 CB column 30 m \u00d7 0.25 mm, with a 0.25 \u00b5m film thickness with a mobile phase of helium, \nand a flow rate of 1 mL/min.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The fragmentation pattern of the obtained mass spectra was analyzed \nby NIST 98 mass library software, Gaithersburg, MD, USA . \n3.8.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Statistical Analysis \nA one-way analysis of variance was carried out and all of the significance analyses were \nperformed at p \u2264 0.05, using Minitab for Windows software (State College, PA, USA), package version \n15.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The error bars represent the standard error of the mean for n = 3. \n4.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Conclusion \nThe eco-friendly biodegradable plastic, PHB granules were accumulated by four marine bacteria \nobtained from mangrove rhizospheres.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The maximum PHB production by the newly isolated E. \naquimaris was obtained after 120 h, pH 8.0, 35 \u00b0C, and 2% NaCl, with glucose and peptone as the \ncarbon and nitrogen sources, with a C:N ratio of 9.2:1.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The characterization of the extracted polymer \nwas conducted by FTIR, 1H NMR, 13C NMR, and GC-MS analysis to confirm its structure as a PHB.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "This study has provided valuable data about the optimized conditions for PHB production by marine \nE. aquimaris, which can make it a decent contender for numerous industrial applications as a \nsubstitution for petroleum-based plastics.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Further studies must be conducted to obtained more \neconomic production under fermenter conditions.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Author Contributions: Conceptualization, Y.S.M.; Data curation, S.A.A.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Alrumman) and K.A.O.; \nFormal analysis, S.A.A.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Alamri) and T.S.; Funding acquisition, Y.S.M. and S.A.A.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Alrumman); Methodology, Y.S.M., K.A.O., M.S.M. and T.S.; Writing\u2014Original draft, S.A.A.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Alrumman) and M.S.M.; Writing\u2014Review & editing, Y.S.M. and S.A.A.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "All authors have read \nand agreed to the published version of the manuscript.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Funding: The authors extend their appreciation to the Deanship of Scientific Research at King Khalid University \nfor funding this work through research program under grant number .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Conflicts of Interest: The authors declare no conflict of interest.",
+      "label": "ACTIVE"
+    }
+  ],
+  "num_sentences": 116
+}

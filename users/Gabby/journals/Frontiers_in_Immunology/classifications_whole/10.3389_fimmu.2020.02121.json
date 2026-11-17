@@ -1,0 +1,695 @@
+{
+  "paper_id": "10.3389_fimmu.2020.02121",
+  "journal": "Frontiers_in_Immunology",
+  "classifications": [
+    {
+      "sentence": "INTRODUCTION\nHelicobacter pylori infects nearly half of the global population,\nwith a higher prevalence in developing countries (1).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The\ninfection is acquired mainly during childhood and may persist\nin the gastric environment throughout the life of the host,\ndespite the immune and humoral response (2).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In Brazil, the\nprevalence of H. pylori infection in adults is between 65 and\n82% (3).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "H. pylori infection, a major cause of chronic gastritis,\nis associated with duodenal and gastric ulcers, lymphoma, and\ncancer.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Furthermore, H. pylori has also been linked to extragastric\ndiseases such as type 2 diabetes mellitus (T2DM) (4, 5).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The role of H. pylori infection in glucose metabolism and\nT2DM development has not been fully established.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Although it\nhas been reported that patients with chronic H. pylori infection\nhave an increased risk of developing T2DM (6), some studies have\nnot found a correlation between this infection and glycemic levels\nin diabetic patients (7).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The impact of H. pylori infection on other organs could\nbe mediated by increased levels of in\ufb02ammatory markers\nsuch as IL-6 and tumor necrosis factor-\u03b1 (TNF-\u03b1), all of\nwhich are also involved in the development of insulin\nresistance and T2DM (5).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "These cytokines could induce the\nphosphorylation of serine residues in the insulin receptor\nsubstrate, preventing their interaction with insulin receptors,\nleading to systemic disruption of insulin sensitivity and impaired\nglucose homeostasis (8, 9).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Few studies have investigated the association between\nprediabetes and H. pylori infection.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "(10) found that\ngastric H. pylori infection is associated with the risk of diabetes\nmellitus but not prediabetes.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Recent studies have shown a positive\nassociation between H. pylori infection and prediabetes (11, 12).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The diagnosis of prediabetes is very critical to the preclinical\ndiagnosis\nof\nT2DM\nand\nfurther\nprevention\nof\nvascular\ncomplications.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Glycated\nhemoglobin\n(HbA1c),\nwhich\nis\nused to diagnose prediabetes, is an indicator of long-term\nglycemic control.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Increased HbA1c levels are correlated with an\nincreased risk of T2DM (13).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Whether H. pylori-related factors\nor host factors are associated with the disturbance of glycated\nhemoglobin levels needs investigation.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Therefore, the aim of this study was to determine the\nassociation\nof\nglycated\nhemoglobin\nlevels\n(HbA1c)\nwith\nendoscopic\ndiagnosis\nand\nlocal\nand\nsystemic\nantiand\npro-in\ufb02ammatory cytokines release in H. pylori infection.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "MATERIALS AND METHODS\nSample Population\nA cross-sectional study was carried out in 88 patients with\ndyspepsia who underwent esophagogastroduodenoscopy at the\nEndoscopy Unit of the University Hospital, Federal University\nof Maranh\u00e3o (UFMA), during a period of 4 months.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\npatients eligible for the study were selected through systematic\nrandom sampling according to the demands of the Endoscopy\nService.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Patients of both genders who were \u226518 years of age\nand who did not have a history of diabetes were included.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\nfollowing patients were not included in the study: pregnant\nwomen, patients with chronic consumptive disease (cancer and\nAIDS), gastric surgery patients, chronic renal failure patients on\nhemodialysis, patients with recent blood transfusion, patients\npreviously treated for H. pylori eradication, and patients who\nhad been medicated with H2 receptor antagonists or proton\npump inhibitors within 2 weeks or antibiotics within 4 weeks\nprior to testing.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The patients included completed a sociodemographic survey\nto collect information on educational level, lifestyle, medical\nhistory, and medication use and for dyspepsia evaluation.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The\nbody mass index (BMI) was also calculated, and the patients\nwere classi\ufb01ed as eutrophic (BMI values <25 kg/m2) and\noverweight/obese (BMI values \u226525 kg/m).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Any participant who\nself-declared as a regular smoker, regardless of the quantity\nof cigarettes smoked, was considered a smoker.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The National\nCommittee for Research Ethics (CONEP) approved this study\naccording to CAAEE 07989412.0.0000.5086.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Those patients who\ninformed consent form.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Diagnosis of H. pylori Infection\nHelicobacter pylori infection was determined using the rapid\nurease test (RUT) and a histopathological exam.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Gastric mucosa\nsamples were collected during endoscopic biopsies.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "For the\nRUT, two specimens of gastric mucosa (antrum and body) were\ncollected using autoclavable biopsy forceps and placed in a\nsterile tube containing urea and a pH indicator (phenol red)\n(Uretest Promedical, Brazil).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The sample was kept at room\ntemperature and after 2 h was read.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "A color change from\ndark yellow to red indicated positivity for H. pylori infection.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "For the histopathological exam, four tissue fragments (two\nFrontiers in Immunology | www.frontiersin.org\nSeptember 2020 | Volume 11 | Article 2121\n\nMaluf et al.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Hemoglobin and Helicobacter pylori Gastritis\nfragments each from the body and antrum) were collected using\nsterile biopsy forceps.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The samples were placed in a single vial\ncontaining 10% formaldehyde, which was properly labeled and\nsubmitted to the Department of Pathology of the HUUFMA.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Giemsa staining techniques were used to facilitate bacterial\nvisualization.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Identi\ufb01cation of H. pylori in any test was considered\na positive result in accordance with the IVth Brazilian Consensus\nConference on H. pylori infection (14).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Endoscopic Diagnosis\nA member of the research team performed all endoscopies.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "An\nOlympus\nExera\nII\nsystem\n(Olympus\nCorporation,\nTokyo, Japan) was used for digestive endoscopy.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Before the\nesophagogastroduodenoscopy exams, dimethicone drops and\nlidocaine spray (10% Xylestesin; Crist\u00e1lia, Brazil) were applied\nto the oropharynx.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Sedation was performed using intravenous\nmidazolam (Dormonid Roche, Brazil).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "During endoscopy,\nthe esophagus, stomach, and duodenum were evaluated, and\nthe endoscopic \ufb01ndings were reported.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Diagnoses of chronic\ngastritis and duodenitis were made based on the Sydney System\n(15).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "A peptic ulcer lesion was described as an area of mucosal\ncontinuity with a perceived depth of more than 0.5 cm.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Morphological Analysis of the Gastric\nMucosa\nThe gastric mucosa obtained from the endoscopic biopsy\nwere routinely prepared with para\ufb03n, and sections were\ncut (5-\u00b5m thick) perpendicular to the surface and were\nstained\nwith\nhematoxylin\nand\neosin.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Two\nexperienced\npathologists without knowledge of other data performed\nthe microscopic examinations.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Histological analysis evaluated\nmorphological variables according to Updated Sydney System\n(16): in\ufb02ammation, activity and density of H. pylori.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "A threegrade system of mild, moderate and severe was applicated to\nmorphological variables according the standard grading scale of\nthe System and each successive grade represents an increment\nin severity of approximately one-third.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In\ufb02ammation refers to\nthe presence of mononuclear in\ufb02ammatory in\ufb01ltrate in lamina\npr\u00f3pria and categorizes the gastritis as chronic.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "We adopt HP\n0/1 for mild degree of in\ufb02ammation; HP 2/3 for moderate and\nsevere degree of in\ufb02ammation.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Activity in the context of chronic\ngastritis refers to the presence of polymorphonuclear leukocytes\nalongside the mononuclear in\ufb02ammatory in\ufb01ltrate.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Activity can\nbe particularly related to the presence of H. pylori (17).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\nneutrophil activity was graded as mild when less than one-third\nof the epithelial grooves and the surface were in\ufb01ltrated by\nneutrophils; it was considered to be of moderate intensity when\nneutrophil in\ufb01ltration occurred in one to two-thirds of the\nsurface and severe when more than two-thirds of the surface\nof the epithelium showed neutrophil in\ufb01ltration.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "We use HP\n0/1 to grade neutrophil activity as mild; HP 2/3, for moderate\nand severe degree of activity.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The density of Helicobacterlike organisms present is grading in mild colonization when\nindividual organisms, or small groups, covering less than onethird of the mucosal surface (1+/3+).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Severe colonization is the\npresence of large groups of organisms on the surface and upper\npits of more than two-thirds of the mucosal surface examined\n(3+/3+).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Moderate colonization is between these two (2+/3+).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "We classify in HP dens1, the mild colonization; HP dens2, the\nmoderate colonization and HP dens3, severe colonization.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Evaluation of Cytokines in Plasma by\nCBA\nFor the evaluation of cytokines, one sample of blood (5 mL) was\ncollected from each patient and sent to the Immunophysiology\nLaboratory, UFMA.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The concentrations of the cytokines IL-2,\nIL-4, IL-6, IL-10, IL-17, IFN-\u03b3, and TNF-\u03b1 were determined\nusing a cytometric bead array (CBA) human Th1/Th2/Th17\ncytokine kit (Becton Dickinson Biosciences, San Jose, CA,\nUnited States).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "For this study only the data of IL-10 and TNF-a\nwere used.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The plasma samples were analyzed in a FACSCalibur\n\ufb02ow cytometer (Becton Dickinson Biosciences, San Jose, CA,\nUnited States) previously calibrated with \u201csetup beads\u201d incubated\nwith \ufb02uorescein isothiocyanate (FITC) or phycoerythrin (PE)\naccording to the manufacturer\u2019s recommendation.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "A standard\ncurve was generated for each cytokine.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The results were analyzed\nin FCAP Array Software (Becton Dickinson Biosciences, San Jose,\nCA, United States), and the values were expressed as pg/mL\nfor each cytokine.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The limit of detection for each cytokine is\nde\ufb01ned as the corresponding concentration at two standard\ndeviations above the median \ufb02uorescence of 30 replicates of\nnegative control (0 pg/mL).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Evaluation of Cytokines in Gastric\nMucosa by Immunochemistry\nTissue microarray blocks (TMAs) were assembled and the\n3 \u00b5m thick histological sections were placed on silanized slides\n(StarFrost\nR\u20ddAdvanced Adhesive, Knittel, Germany) and taken to\nan oven at 65\u25e6C for 1 h.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The gastric tissue was depara\ufb03nized\nwith xylol and dehydrated in alcohol.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Endogenous peroxidase\nenzyme blockade was performed with H2O2 (hydrogen peroxide)\nsolution (Merck KgaA, Darmstadt, Germany) at 3%.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Antigenic\nrecovery was performed by heating the tissue for 40 min at\na temperature between 97 and 100\u25e6C.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Then, the antibody\ndiluted in PBS-Tween 20/BSA 1% was applied over gastric\ntissue and incubated for 40 min.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Rabbit polyclonal anti-IL-\n10 antibody (Biorbyt, Cambridge, United Kingdom) and anti-\nTNF-\u03b1 antibody (Scytek, Utah, United States) were used.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\nslides were washed with PBS-Tween 20 pH 7.4 solution and\nincubated with the chromogen 3.3\u2032-Diaminobenzidine (DAB,\nSigma, St Louis, MO, United States, D5637-1G) diluted in DAB\nSubstrate, for 5 min, at room temperature.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Counterstaining was\ndone with Hematoxylin.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The cuts were dehydrated in alcohol\nand xylol solutions and subsequently assembled.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The positive\ncontrol for TNF-\u03b1 was performed with lymph node sections.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\npositive control for IL-10 was performed with kidney sections.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The expression of IL-10 and TNF-\u03b1 was evaluated in epithelial\ncells and the lamina propria of the gastric mucosa by using\nan ECLIPSE E800 electronic microscope (Nikon Instruments\nEurope, Amsterdam, Netherlands) with a 20\u00d7 objective on the\nEGFP \ufb01lter (Emission Green Fluorescent Protein).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The counting\nof the marked cells in \ufb01ve \ufb01elds of the histological section was\nFrontiers in Immunology | www.frontiersin.org\nSeptember 2020 | Volume 11 | Article 2121\n\nMaluf et al.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Hemoglobin and Helicobacter pylori Gastritis\nperformed.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The \ufb01elds were determined as \u201cupper left \ufb01eld,\u201d\n\u201cupper right \ufb01eld,\u201d \u201clower left \ufb01eld,\u201d \u201clower right \ufb01eld,\u201d and\n\u201ccenter.\u201d After counting, the sum of the \ufb01ve \ufb01elds was made\nto obtain an estimate of the cells marked for IL-10 or TNF-\u03b1,\nper patient slide.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Statistical Analysis\nThe absolute and relative frequencies are used to describe the\nqualitative variables.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The mean and standard deviation or median\nand interquartile range are used to the describe quantitative\nvariables according to the Shapiro\u2013Wilk normality test.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "To evaluate the association between the quantitative variables\nand the presence of H. pylori infection, the Mann\u2013Whitney test or\nStudent\u2019s t-test for independent samples was used.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The Kruskal\u2013\nWallis test followed by Dunnett\u2019s test or ANOVA followed by\nBonferroni\u2019s test were used to verify the di\ufb00erences in the\nquantitative variables between the study groups.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Qualitative variables were assessed by Fisher\u2019s exact and\nChi-square tests for the presence of H. pylori and for the\nanalysis of di\ufb00erences between the study groups.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "For the\ncorrelation analyses, the Spearman test was used.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Di\ufb00erences\nwere considered signi\ufb01cant when the p-value \u22640.05.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The data\nwere tabulated and analyzed using the data and statistical analysis\nsoftware STATA\nR\u20ddversion 14.0 and GraphPad Prism 6.0 software.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "RESULTS\nEvaluation of Sociodemographic\nParameters\nThere were no signi\ufb01cant di\ufb00erences regarding age, sex, BMI,\ngastric symptoms, smoking habits, or alcohol consumption.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The\nmajority of the study population consisted of women with\nan average age of approximately 40 years with BMI less than\n25 (Table 1).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Prevalence of H. pylori Infection,\nSymptoms, and Endoscopic Findings\nApproximately 75% of patients were infected with H. pylori.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Most\nof them were women aged 18\u201354 years.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Half of the patients\ncomplained of epigastric pain.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Enanthematous pangastritis was\nthe most frequent endoscopic \ufb01nding in patients infected with\nH. pylori (Table 1).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Helicobacter pylori Infection Was\nAssociated to Increased HbA1c Levels\nPatients with H. pylori infection had higher mean HbA1c levels\nthan patients without H. pylori infection (Figure 1).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "There Was an Association Between\nIncreased H. pylori Density and the\nIncrease in HbA1c Levels\nThe mean HbA1c levels were higher in the H. pylori-infected\ngroup with a higher bacterial density 3+/3+ (HPdens3) than\nin the control group.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "There was no signi\ufb01cant di\ufb00erence\nbetween controls and low-density infected patients (HPdens1)\nas well as between controls and infected patients with moderate\nbacterial density (HPdens2).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "There were also no signi\ufb01cant\ndi\ufb00erences between the infected groups HPdens1 and HPdens2,\nHPdens2 and HPdens3, and HPdens1 and HPdens3 (Figure 2A).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "However, bacterial density was positively correlated with HbA1c\nlevels (Figure 2B).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Endoscopic Diagnosis Was Not\nAssociated With High Levels of HbA1c,\nbut Rather the H. pylori Related-Factors\nAmong patients with endoscopic diagnoses of pangastritis and\namong patients with peptic ulcers, HbA1c levels were higher in\npatients with H. pylori infection than in those without infection\n(Figures 3A,B).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "When we compared patients presenting peptic\nulcer, but without H. pylori infection with patients presenting\ngastritis, but with H. pylori infection we observed that HbA1c\nlevels were higher in patients with H. pylori infection and gastritis\ndiagnosis (Supplementary Figure S1).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "These data suggest that\nthe endoscopic diagnosis does not appear to be associated with\nHbA1c levels, but rather the H. pylori related-factors.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "There Was an Association Between\nIncreased HbA1c Levels With Severe\nDegree of In\ufb02ammation and Activity of\nChronic Gastritis\nThere was an increase in HbA1c levels in patients infected with\nH. pylori with moderate and severe chronic in\ufb02ammation of\nthe gastric mucosa compared to those in the control group (no\ninfection with normal mucosa or mild in\ufb02ammation).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "However,\nthere was no change in the HbA1c levels between the control\ngroup and the HP group with mild in\ufb02ammation (Figure 4A).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Similarly, HbA1c levels were increased in H. pylori-infected\npatients with moderate to high gastric mucosa activity compared\nto those in the control group.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "There was no change in HbA1c\nlevels between the control group and the HP group with mild\nactivity (Figure 4B).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Furthermore, chronic in\ufb02ammation and\nneutrophil activity were positively correlated with the HbA1c\nlevels (Figures 4C,D).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "These data suggest that the intensity of the\nneutrophil activity and the in\ufb02ammation of the chronic gastritis\nmay be predisposing factors for prediabetes.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The Presence of H. pylori Infection Did\nNot Alter Systemic Levels of IL-10, TNF-\u03b1\nor Alter the Expression of the Cytokines\nTNF-\u03b1 and IL-10 in Gastric Mucosa\nConsidering that the in\ufb02ammation of the chronic gastritis\nmay be predisposing factors for prediabetes, we evaluated two\nantagonistic cytokines, IL-10 (anti-in\ufb02ammatory) and TNF-a\n(pro-in\ufb02ammatory) in the plasma and in the gastric mucosal\nand tested if they could be associated with the presence of the\nbacterium by itself.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "However, there was no di\ufb00erence in IL-\n10 or TNF-\u03b1 levels in the plasma of H. pylori-infected patients\ncompared to those in non-infected patients (Figures 5A,B).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Similarly, there was no di\ufb00erence in the IL-10 or TNF-\u03b1\nFrontiers in Immunology | www.frontiersin.org\nSeptember 2020 | Volume 11 | Article 2121\n\nMaluf et al.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Hemoglobin and Helicobacter pylori Gastritis\nSpearman\u2019s correlation tests Level of signi\ufb01cance, p < 0.05.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Level of signi\ufb01cance, p < 0.05.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Frontiers in Immunology | www.frontiersin.org\nSeptember 2020 | Volume 11 | Article 2121\n\nMaluf et al.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Hemoglobin and Helicobacter pylori Gastritis\nThen, we compared the endoscopic diagnosis results with\nthe HbA1c levels and observed that among patients diagnosed\nwith pangastritis, HbA1c levels were signi\ufb01cantly higher in\nthose with H. pylori infection than in those without infection.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Similarly, among patients with peptic ulcers, HbA1c levels were\nsigni\ufb01cantly higher in those with H. pylori infection than in\nthose without infection.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Moreover, when we compared a group\nof patients with endoscopic diagnosis of pangastritis associated\nwith H. pylori infection with another group of patients with\nendoscopic diagnosis of peptic ulcer who were not infected, the\nHbA1c levels were signi\ufb01cantly higher in the group with H. pylori\ninfection than in the group without infection.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "These data have\nallowed us to initially assume that H. pylori-related factors could\ninduce disturbances in HbA1c levels.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Interestingly, when we histologically evaluated the gastric\nmucosa, a signi\ufb01cant increase in HbA1c levels was noted in the\ngroup of infected patients with moderate and intense activity and\nchronic in\ufb02ammation of the gastric mucosa when compared to\nthat in the controls.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "However, there was no change in HbA1c\nlevels between the control group and the infected group with mild\nin\ufb02ammation and low neutrophil activity.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "These data suggest that\nthe degree of chronic in\ufb02ammation and the degree of the activity\nof the gastric mucosa can in\ufb02uence HbA1c levels.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Furthermore,\nwe observed increased HbA1c levels in H. pylori-infected patients\nwith increased bacterial density.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Studies show that increased\nbacterial density is associated with a more intense active chronic\nin\ufb02ammatory process (26).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Thus, we support the hypothesis that\nthe severity of the in\ufb02ammatory process in the gastric mucosa is\na risk factor for prediabetes.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The cross-sectional design of this study is a limitation because\nonly allows us to establish associations, not being able to de\ufb01ne\na cause-e\ufb00ect relationship.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "However, epidemiological studies\nshowed that H. pylori infection is acquired in childhood (27).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In developing countries the rate of acquisition of the pathogen\ncan reach up to 50% of children at the age of \ufb01ve (28), similar to\nthe prevalence rate in adults (1).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Natural clearance of H. pylori\ninfection is di\ufb03cult to determine and infection can perpetuate\nthroughout the life of the host (2).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Therefore, it is possible to\nbelieve that H. pylori infection occurred long time before T2DM.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "(29) using a prospective cohort demonstrated that\nindividuals seropositive for H. pylori whose diabetic status was\nnot known at the initiation of the study were two times more\nlikely to develop diabetes than those who were seronegative,\neven after adjusting for age, sex, education, and covariates such\nas smoking, BMI, blood pressure, and lipids.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Chen and Blaser\n(30) showed that H. pylori seropositivity, and H. pylori cagA\npositivity in particular, was associated with higher mean HbA1c\nlevels, an association that persisted after excluding individuals\nwith a history of diabetes mellitus and controlling for potential\nconfounders.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Study performed by Hsieh et al.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "(31) observed that\nlong-term H. pylori infection was signi\ufb01cantly associated with\nhigh levels of HbA1c, decreased insulin secretion, and a higher\nprevalence of T2DM in Taiwanese patients.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The pathogenesis of T2DM has been associated with a\nsubclinical chronic in\ufb02ammation and activation of the immune\nsystem.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "H. pylori infection will invariably induce chronic lowgrade in\ufb02ammation with positive regulation of pro-in\ufb02ammatory\ncytokines and mediators, such as C-reactive protein, tumor\nnecrosis factor and interleukine-6, which may a\ufb00ect peripheral\ninsulin action and secretion of pancreatic \u03b2 cells (32, 33).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Type 2 diabetes mellitus is characterized by a metabolic\ndisorder\nbetween\nincreased\ncirculating\nlevels\nof\nproin\ufb02ammatory cytokines like interleukin- IL-1, IL-6, tumor\nnecrosis factor-(TNF-)\u03b1, transforming growth factor-\u03b2 (TGF-\u03b2)\nand decreased anti-in\ufb02ammatory cytokines like IL-4, IL-10,\nIL-13 (34), which are involved with peripheral insulin resistance\n(8) and beta cell apoptosis in T2DM (34).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In this study, there was no signi\ufb01cant di\ufb00erences in the plasma\nlevels between anti-in\ufb02ammatory (IL-10), and pro-in\ufb02ammatory\ncytokine (TNF-\u03b1) between groups with and without H. pylori\ninfection.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "There was also no association between plasma levels\nof interleukins IL-10 and TNF-\u03b1 with HbA1c levels.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Similar\nresults described by Yang et al.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "(35) showed that chronic H. pylori\ninfection a\ufb00ects glucose metabolism, but plasma levels of\nsystemic mediators were not involved in these e\ufb00ects.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "We showed\nthat H. pylori infection might disrupt glucose metabolism, but\ncirculating levels of anti- and pro-in\ufb02ammatory cytokines do not\nappear to depend on bacterium\u2019s factors, but on the in\ufb02ammatory\nresponse of the host mucosa.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Our results demonstrated that the bacterial density was\nnegatively correlated with IL-10 cytokine plasma levels.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\ndata shown that although the infection is considered local, it\nresults in systemic impairment of the in\ufb02ammatory response and\ndepends on the density of H. pylori colonization.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Moreover, a\ndecrease in IL-10 expression in the gastric mucosa was observed\nby immunohistochemistry in H. pylori-infected patients with\nan increased density of H. pylori colonization and an increased\ndegree of both neutrophil activity and chronic in\ufb02ammation of\nthe gastric mucosa.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "(36) detected low levels of\nIL-10 in the gastric mucosa of H. pylori-infected patients with\nan increased degree of in\ufb02ammation and increased neutrophil\nactivity of the chronic gastritis.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Could the decrease in IL-\n10 expression during H. pylori infection, as observed in this\nstudy, lead to an increase in bacterial colonization and the\nbacterial density would to increased glycated hemoglobin levels?",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Or, conversely, could the increase in bacterial density induce\ndecreased expression of IL-10?",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Could plasmatic IL-10 levels be\nused as a marker to detect the possible risk of prediabetes in an\nH. pylori-infected patient?",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In this study, although a correlation\nbetween the levels of cytokines in plasma with cytokines in the\ngastric mucosa was not demonstrated, the expression of the IL-\n10 cytokine showed a corresponding systemic and local pattern\nin H. pylori infection.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "This suggests that plasma levels of IL-\n10 re\ufb02ect the load of bacterial colonization and the intensity of\nin\ufb02ammatory process in the gastric mucosa, which reinforces\nthe possibility of serum IL-10 being used as a risk marker\nfor prediabetes in H. pylori-infected patients.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Studies indicated\nthe association between the low levels of IL-10 with the high\nHbA1c levels.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "For this reason, it is possible to consider the\nblood levels of IL-10 as one of the predictors of glycemia\n(37, 38).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "In this study, we found no correlation between plasma\nlevels of IL-10 or TNF-\u03b1 with HbA1c levels.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "On the other\nhand, in the gastric mucosa, we observed a positive correlation\nFrontiers in Immunology | www.frontiersin.org\nSeptember 2020 | Volume 11 | Article 2121\n\nMaluf et al.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Hemoglobin and Helicobacter pylori Gastritis\nbetween IL-10 and TNF-\u03b1 expression with HbA1c.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "(39) observed that plasma levels of IL-10 were positively\nassociated with prediabetes or T2DM, in disagreement with\nother studies that showed that IL-10 improve impaired insulin\nsignaling (40) and prevent pancreatic beta cell destruction (41).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "However, we observed in our study that H. pylori-infected\npatients with a higher degree of mucosal in\ufb02ammation and\nhigher bacterial density had increased levels of HbA1c and\nreduced levels of IL-10 in the plasma and gastric mucosa.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Thus, the increase in HbA1c levels would be dependent on\nin\ufb02ammatory response degree of the host mucosa, which\nis dependent of bacterial density.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Most studies found that\nsubjects with insulin resistance or T2DM had increased\nlevels of TNF-\u03b1 (42).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "It has been reported that chronic\nexposure of insulin-producing pancreatic cells (\u03b2 cells) to\nthe pro-in\ufb02ammatory cytokine TNF-\u03b1 can inhibit insulin\nsecretion and induce apoptosis of pancreatic \u03b2 cells (42).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The progression from normal glucose tolerance to prediabetes\nand T2DM is characterized by continuous defects in \u03b2\ncell function (43).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In this study, patients infected with\nH.\npylori showed a positive correlation between TNF-\u03b1\nexpression in the gastric mucosa and HbA1c levels, which\nsuggests that the pro-in\ufb02ammatory cytokines induced by\nH. pylori infection play an important role in the disorder of\nglucose metabolism.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Another question to keep in mind is whether eradicating\nH. pylori infection could reduce HbA1c levels in H. pyloriinfected patients without prediabetes.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Data are con\ufb02icting\nregarding the impact of H. pylori eradication on glucose\nmetabolism.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "H. pylori eradication improved the mean HbA1c\nvalues in non-diabetic patients (44) and in patients with\nT2DM (45).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "We consider H. pylori infection to be a risk factor for\nprediabetes, and we believe this is an additional reason to\neradicate H. pylori infection in adulthood.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Special attention\nshould be given to those patients with higher bacterial loads and\nhigher degrees of in\ufb02ammation and neutrophil activity of the\nchronic gastritis.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In these patients, the evaluation of HbA1c levels\nwould be of interest.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "More\nstudies\nare\nnecessary\nto\nelucidate\nwhether\nH. pylori per se or host-related factors are involved in\ndisturbances\nof\nglycated\nhemoglobin.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Detailed\nanalysis\nof the levels of pro- and anti-in\ufb02ammatory cytokines in\nthe\ngastric\nmucosa\nand\nglycated\nhemoglobin\nlevels\nin\npatients infected with H. pylori appears to be of relevance\nfor further study.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "DATA AVAILABILITY STATEMENT\nThe raw data supporting the conclusions of this article will be\nmade available by the authors, without undue reservation.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "ETHICS STATEMENT\nThe National Committee for Research Ethics (CONEP) approved\nthis study according to CAAEE 07989412.0.0000.5086.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The\npatients/participants provided their written informed consent to\nparticipate in this study.",
+      "label": "ACTIVE"
+    }
+  ],
+  "num_sentences": 172
+}

@@ -1,0 +1,254 @@
+{
+  "paper_id": "10.1093_bioinformatics_btaa1043",
+  "journal": "Bioinformatics",
+  "introduction": [
+    {
+      "sentence": "The function of ribonucleoproteins (RNPs) is dependent on protein\u2013 protein and protein\u2013RNA interactions.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Chemical crosslinking with mass spectrometry [XL-MS;, top right] is used for mapping protein\u2013protein interactions.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "On the other hand, the detection of RNA-linked peptides by mass spectrometry (MS) is challenging, given complex MS signals of low intensity.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "This challenge is met by the RBDmap method: allow- ing to detect protein\u2013RNA interactions using UV crosslinking fol- lowed by tandem proteolysis, using LysC or ArgC followed by trypsin, combined with MS (, 2017; ) (, top left).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Software packages are available for initial processing of XL-MS data",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "[e.g. pLink ] or RBDmap data",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "However, in an RBDmap experiment, the MS-identified peptides are adjacent to the RNA-linked peptides (, 2017).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Therefore, downstream bioinformatic analysis reveals the RNA-linked pepti- des, given the protein sequence and the proteases used in the assay.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Hence, custom pipelines are needed to combine, compare or reduce datasets obtained from different experiments, treatments and repli- cates, especially if RBDmap is complemented by XL-MS.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Such cus- tom analysis has remained a bottleneck for the study of RNP complexes when both protein\u2013protein and protein\u2013RNA interac- tions are of interest.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Herein, we describe crisscrosslinkeR, an R package aimed to identify molecular interactions detected from both types of XL-MS experiments\u2014XL-MS and RBDmap\u2014and to map both protein\u2013 protein and protein\u2013RNA interactions, respectively.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "criss crosslinkeR can map these different types of molecular interactions to the sequence or the three-dimensional (3D) structure of the same macromolecule complex(es), while comparing multiple experiments or treatments and accounting for experimental repli- cates [see Supplementary Material S1 for an example and Supplementary Table S1 for a comparison with other tools (,, and ) (, V C",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Published by Oxford University Press.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "For permissions, please e-mail: journals.permissions@oup.com 5530 Bioinformatics, 36(22-23), 2020, 5530\u20135532 doi: 10.1093/bioinformatics/btaa1043 Advance Access Publication Date: 21 December 2020 Applications Note Downloaded from academic.oup.com/bioinformatics/article/36/22-23/5530/6042702 by Georgia Institute of Technology user on 13 November 2026 and )].",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "crisscrosslinkeR was designed to fill the gap between the primary analysis of MS data to the interpret- ation and visualization of the results either simultaneously for both protein\u2013RNA interactions and protein\u2013protein interactions, or in- dependently for any of them.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "To our knowledge, it is the first tool that streamlines RBDmap data analysis and the first package dedi- cated for mapping both RBDmap and XL-MS data.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Implementation Primary MS data analysis is performed by pLink, MaxQuant and Andromeda, which identify tryptic peptides from raw MS files (.raw) (, middle).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In the context of the MS data analysis pipeline, crisscrosslinkeR is placed downstream of these software and utilizes R packages and APIs for protein data bank (PDB) file reading and the RCSB PDB mapping.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Features Data reduction is done across multiple samples, allowing to merge replicates or accept data points based on user-defined conditions (e.g. only if the same crosslinked peptide appeared in \u0002n replicates).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Filtration is based on significance scores that were assigned during the primary data analysis.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "crisscrosslinkeR is designed to handle an unlimited number of XL-MS and RBDmap datasets simultaneously for a direct comparison or data reduction, based on user preference.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "There are currently no tools to visualize RBDmap data over sequences [two-dimensional (2D) visualization] or structures (3D visualization) of protein complexes, though these forms of visualiza- tion are popular and supported in case of XL-MS.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "crisscrosslinkeR illustrate replicates or different experimental treatments for 2D rep- resentation of RBDmap data.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "For 2D visualization of XL-MS and, optionally, RBDmap data, crisscrosslinkeR exports files compatible with the user-friendly server xiView (, bottom right).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "For 3D visualization of RBDmap and XL-MS data, crisscrosslinkeR uses the RCSB PDB mapping API to identify the most suitable 3D structure(s) in the PDB, aligns it to the sequence of the protein used during the experiment and then uses the selected structure for 3D visualization of either RBDmap or XL-MS data (, bottom left).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Specifically, crisscrosslinkeR generates a Python script to launch PyMOL \u2014a popular and stable suite for molecular imaging\u2014to generate publication- quality figures or for structural analysis.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "crisscrosslinkeR can be used to hide or present color-coded crosslinking sites, including based on the score applied by the primary software that detected them [MaxQuant or pLink ], the number of times linked peptides was detected across multiple replicates and differential crosslinked sites and, when ap- plicable, the Euclidean crosslinking distances; all these are visualized with large flexibility for user-defined color selection.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Collectively, crisscrosslinkeR is a versatile pipeline that stream- lines the workflow, starting from multiple raw data files down to publication-quality figures.",
+      "label": "ACTIVE"
+    }
+  ],
+  "methods": [],
+  "results": [],
+  "discussion": [
+    {
+      "sentence": "crisscrosslinkeR provides users with the ability to analyze and visual- ize data obtained from both RBDmap and XL-MS experiments including an unlimited number of replicates and treatments.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "crisscrosslinkeR allows the user to combine replicates, or to search for common crosslinking events among replicates or different treat- ments, in order to discover biological cues in a complex dataset.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "These functionalities are complemented by 2D and 3D visualization, tailored for subsequent communication of the results.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The current version of crisscrosslinker does not support solvent-accessible distan- ces.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "These can be obtained using other software packages as Xwalk Jwalk and DynamXL.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "To our knowledge, crisscrosslinkeR is the first available package that streamlines XL-MS data analysis for the discovery of both protein\u2013protein and protein\u2013RNA interactions within the same macromolecular RNP complex or biological system.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Funding C.D. is an EMBL-Australia Group Leader and acknowledges support from the Australian Research Council (ARC; grant No. DP190103407) and the National Health and Medical Research Council (NHMRC; grant No. APP1162921 and APP1184637).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Conflict of Interest: none declared.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "References Bullock,J.M.A. et al. (2018) Jwalk and MNXL web server: model validation using restraints from crosslinking mass spectrometry.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Castello,A. et al. (2016) Comprehensive identi\ufb01cation of RNA-binding domains in human.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Castello,A. et al. (2017) Identi\ufb01cation of RNA-binding domains of RNA-binding proteins in cultured cells on a system-wide scale with RBDmap.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Courcelles,M. et al. (2017) CLMSVault: a software suite for protein cross-linking mass-spectrometry data analysis and visualization.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "J. Proteome Res., 16, 2645\u20132652.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Andromeda: a peptide search engine integrated into the MaxQuant environment.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "J. Proteome Res., 10, 1794\u20131805.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Degiacomi,M.T. et al. (2017) Accommodating protein dynamics in the model- ing of chemical crosslinks.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Graham,M.J. et al. (2019) xiView: a common platform for the downstream analysis of crosslinking mass spectrometry data.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Hekate: software suite for the mass spectrometric analysis and three-dimensional visualization of cross-linked protein sam- ples.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "J. Proteome Res., 12, 5923\u20135933.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Crosslinking and mass spectrometry: an integrated technology to understand the structure and function of molecular machines.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Kahraman,A. et al. (2011) Xwalk: computing and visualizing distances in cross-linking experiments.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Kosinski,J. et al. (2015) Xlink analyzer: software for analysis and visualization of cross-linking data in the context of three-dimensional structures.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Schematic of the crisscrosslinkeR work\ufb02ow.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Protein\u2013RNA (left) and protein\u2013 protein (right) interactions identi\ufb01ed by two distinct approaches for crosslinking with MS: RBDmap (left) and XL-MS (right).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "crisscrosslinkeR brings into account differences between methods, in term of crosslinking and proteolytic digestion ahead of mass spectrometry (center), while mapping linked peptides to the protein sequences and structures for subsequent 2D and 3D visualization (bottom right and left, respectively) crisscrosslinkeR 5531 Downloaded from academic.oup.com/bioinformatics/article/36/22-23/5530/6042702 by Georgia Institute of Technology user on 13 November 2026",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "ProXL (Protein Cross-Linking Database): a platform for analysis, visualization, and sharing of protein cross-linking mass spec- trometry data.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "J. Proteome Res., 15, 2863\u20132870.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Schmidt,C. et al. (2012) Investigation of protein\u2013RNA interactions by mass spectrometry\u2014techniques and applications.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The PyMOL molecular graphics system, Version 1.8.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The MaxQuant computational platform for mass spectrometry-based shotgun proteomics.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Yang,B. et al. (2012) Identi\ufb01cation of cross-linked peptides from complex samples.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "RNA exploits an exposed regulatory site to inhibit the enzymatic activity of PRC2.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "5532 E.H.Gail et al. Downloaded from academic.oup.com/bioinformatics/article/36/22-23/5530/6042702 by Georgia Institute of Technology user on 13 November 2026",
+      "label": "ACTIVE"
+    }
+  ]
+}

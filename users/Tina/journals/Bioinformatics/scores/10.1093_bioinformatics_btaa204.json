@@ -1,0 +1,36 @@
+{
+  "paper_id": "10.1093_bioinformatics_btaa204",
+  "journal": "Bioinformatics",
+  "sections": {
+    "introduction": {
+      "active": 5,
+      "passive": 2,
+      "total": 7,
+      "active_ratio": 0.7142857142857143
+    },
+    "methods": {
+      "active": 48,
+      "passive": 7,
+      "total": 55,
+      "active_ratio": 0.8727272727272727
+    },
+    "results": {
+      "active": 0,
+      "passive": 0,
+      "total": 0,
+      "active_ratio": null
+    },
+    "discussion": {
+      "active": 0,
+      "passive": 0,
+      "total": 0,
+      "active_ratio": null
+    }
+  },
+  "paper": {
+    "active": 53,
+    "passive": 9,
+    "total": 62,
+    "active_ratio": 0.8548387096774194
+  }
+}

@@ -4,18 +4,18 @@ project:
 journals:
   - name: "Nature"
     issn: "1476-4687"
-  - name: "Nature Communications"
-    issn: "2041-1723"
-  - name: "Scientific Reports"
-    issn: "2045-2322"
   - name: "Nature Genetics"
     issn: "1546-1718"
   - name: "Nature Neuroscience"
     issn: "1546-1726"
   - name: "Nature Medicine"
     issn: "1546-170X"
-  - name: "Nature Chemical Biology"
-    issn: "1552-4469"
+  - name: "Nature Cell Biology"
+    issn: "1465-7392"
+  - name: "Nature Materials"
+    issn: "1476-1122"
+  - name: "Cell Death and Differentiation"
+    issn: "1350-9047"
 
 years: [2005, 2010, 2015, 2020, 2025]
 papers_per_year: 40

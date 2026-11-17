@@ -1,0 +1,258 @@
+{
+  "paper_id": "10.1093_bioinformatics_btaa204",
+  "journal": "Bioinformatics",
+  "introduction": [
+    {
+      "sentence": "The complexity, wide variability and ultimately the sheer number of diverse protein structures present in nature make the characteriza- tion of proteins extremely expensive and complex.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "For this reason, considerable effort has gone into predicting protein structures by computational means (Dill and MacCallum, 2012), often in the form of abstractions that simplify the prediction while still retaining structural information.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "These abstrac- tions or protein structural annotations (PSAs), may be 1D when they can be represented by a string or a sequence of numbers of the same length as the protein\u2019s primary structure, i.e. the chain of amino acids (AA) composing the protein.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Secondary structure (SS; ) and relative solvent accessibility (RSA; ) are among the most widely adopted structural annotations, with various definitions of torsion angles/structural motifs and con- tact density (CD) having also being predicted (Kurgan and Disfani, 2011; Torrisi and Pollastri, 2019).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Although there is increasing interest in predicting 2D structural annotations such as contact and distance maps, 1D PSAs remain a central component of many such predictors (; ), especially in the hardest prediction cases.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Because of this, many efforts are ongoing to harness all the protein data available, e.g. the Protein Data Bank (PDB; ) and the UniProt (The UniProt Consortium, 2016) and increasingly sophisticated algorithms for se- quence similarity detection, to more reli- ably predict PSA (;;;; ).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Here, we introduce Brewery, a suite of PSA predictors based on deep learning algorithms that are fast, highly accurate, compact and portable and are free to access via a Web interface and to download.",
+      "label": "ACTIVE"
+    }
+  ],
+  "methods": [
+    {
+      "sentence": "Brewery predicts four PSAs: SS; RSA; CD (Bau\u00b4 et al., 2006); and structural motifs obtained from clustering of consecutive torsion angles (TA; ).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Brewery\u2019s training set is built starting from the PDB released on December 2014, imposing an internal redundancy threshold of 25% sequence iden- tity.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "This resulted in 15 753 proteins, comprising 3 797 426 AA, one of the largest sets built to date, which we used for both training and validation purposes (in cross-validation).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "We also built an independ- ent test set to compare Brewery against some of the most recent predictors, i.e. MUFOLD-SSW, NetSurfP-2.0 and SPOT-1D, starting from the PDB released on June 2019.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "This set was re- dundancy reduced at 25% sequence identity internally and against the training sets of Brewery, NetSurfP-2.0 and SPOT-1D and con- tains 618 proteins (91 375 AA).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "We call this resulting set 2019_test and report results observed on this set for SS (in both three and eight classes), TA, RSA and CD in.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "We use both PSI-BLAST and HHblits to gather evolutionary information.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "BLAST is run on the May 2016 release of UniRef90 (The UniProt Consortium, 2016) and HHblits on both the February 2016 release of UniProt20 and the March 2019 release of BFD.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "We encode evolutionary information applying a weighting scheme and a novel clipping technique, which V C The Author(s) 2020.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Published by Oxford University Press.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "For permissions, please e-mail: journals.permissions@oup.com 3897 Bioinformatics, 36(12), 2020, 3897\u20133898 doi: 10.1093/bioinformatics/btaa204 Advance Access Publication Date: 24 March 2020 Applications Note Downloaded from academic.oup.com/bioinformatics/article/36/12/3897/5811232 by Georgia Institute of Technology user on 13 November 2026 are fed to ensembles of Cascaded Bidirectional Recurrent and Convolutional Neural Networks (; ).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "We define both RSA and SS using DSSP, classifying the former into four classes, roughly equally dis- tributed, and the latter into both eight states (G, H, I, E, B, S, T and \u2018.\u2019), and three states, i.e. Helices (G, H and I), Sheets (E and B) and Coils (\u2018.\u2019, S and T).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "We classify TA into 14 structural motifs derived from clusters described in Sims et al. (2005) and CD into four states, i.e. very low density, low density, high density and very high density (Bau\u00b4 et al., 2006).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "3 Web server The web server of Brewery allows the prediction of (some or) all the 1D PSA in one go.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Up to roughly 200 protein sequences (or 64 KB) can be submitted at the same time.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "There is no limit of total submis- sions while the confirmation page will show the server load and the URL to the result page.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "If an email address is provided, all the infor- mation on the result page will be sent by email when available.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The result page/email will contain a recap of the query sequence along with the predictions, and respective confidence levels, of the 1D PSA of choice, with a quick explanation of the output format.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The server implements \u2018Brewery\u2019 in.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "At the time of writing the Brewery web server had processed over 70 000 queries, with an average re- sponse time of 24 min. 4 Standalone The standalone of Brewery is accessible on both GitHub and Docker Hub.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The standalone allows more flexibility than the web server, including using a slower but slightly more accurate ensemble of UniProt20, UniRef90 and BFD models (\u2018Brewery\u00fe\u2019 in ) and a significantly faster HHblits-only pipeline (\u2018BreweryH\u2019 in ).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The standalone is freely released for non-commercial purposes and, given appropriate credit, may also be modified.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The very light stand- alone requires only 30 MB of space.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The authors acknowledge the Research IT Service at University College Dublin for providing HPC resources that have contributed to the research results reported within this article.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The authors are grateful to Michael Schantz Klausen and Prof. Bent Petersen for NetsurfP-2.0s training set, and Prof. Yaoqi Zhou for SPOT-1D\u2019s training set.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Funding The work of M.T. was supported by the Irish Research Council",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "[GOIPG/ 2015/3717] and the UCD School of Computer Science Bursary.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Con\ufb02ict of Interest: none declared.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "References Altschul,S.F. (1997) Gapped BLAST and PSI-BLAST: a new generation of pro- tein database search programs.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Nucleic Acids Res., 25, 3389\u20133402.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Distill: a suite of web servers for the prediction of one-, two- and three-dimensional structural features of proteins.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Nucleic Acids Res., 28, 235\u2013242.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The protein-folding problem, 50 years on.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "MUFold-SSW: a new web server for predicting protein secondary structures, torsion angles and turns.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Hanson,J. et al. (2018) Improving prediction of protein secondary structure, backbone angles, solvent accessibility and contact numbers by using pre- dicted contact maps and an ensemble of recurrent and residual convolution- al neural networks.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Protein tertiary structure modeling driven by deep learning and contact distance prediction in CASP13.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Kaleel,M. et al. (2019) PaleAle 5.0: prediction of protein relative solvent acces- sibility by deep learning.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Klausen,M.S. et al. (2019) NetSurfP-2.0: improved prediction of protein struc- tural features by integrated deep learning.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Structural protein descriptors in 1-dimen- sion and their sequence-based predictions.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Uniclust databases of clustered and deeply annotated protein sequences and alignments.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Nucleic Acids Res., 45(Database issue), D170\u2013D176.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Senior,A.W. et al. (2019) Protein structure prediction using multiple deep neural networks in CASP13.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Protein conformational space in higher order maps.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Steinegger,M. et al. (2019a) HH-suite3 for fast remote homology detection and deep protein annotation.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Steinegger,M. et al. (2019b) Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "(2016) UniProt: the universal protein knowledge- base.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Nucleic Acids Res., 45, D158\u2013D169.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "In: Shaik,N.A. et al. (eds) Essentials of Bioinformatics, Volume I: Understanding Bioinformatics: Genes to Proteins.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Springer International Publishing, Cham, pp.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Deeper pro\ufb01les and cascaded recurrent and convolu- tional neural networks for state-of-the-art protein secondary structure pre- diction.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Analysis of several key factors in\ufb02uencing deep learning-based inter-residue contact prediction.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Most recent predictors assessed on 2019_test set of 618 proteins Predictor SS\u2014",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Q3 (%) SS\u2014Q8 (%) TA\u2014Q14 (%) RSA\u2014Q4 (%) CD\u2014Q4 (%) Brewery\u00fe 81.8 68.6 65.8 52.6 49.4 Brewery 81.7 68.5 65.8 52.4 49.1 BreweryH 81 67.5 64.5 52 48.6 MUFold-SSW 81.1 68.2 64.5 N/A N/A NetSurfP-2.0 81.3 67.9 63 49 N/A SPOT-1D 82.1 69.7 65.4 49.9 N/A Note: Brewery employs evolutionary information from UniProt20 (via HHblits) and UniRef90 (via PSI-BLAST), Brewery\u00fe also includes pro\ufb01les from a HHblits search on BFD.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "BreweryH only uses HHblits pro\ufb01les from UniProt20. 3898 M.Torrisi and G.Pollastri Downloaded from academic.oup.com/bioinformatics/article/36/12/3897/5811232 by Georgia Institute of Technology user on 13 November 2026",
+      "label": "ACTIVE"
+    }
+  ],
+  "results": [],
+  "discussion": []
+}

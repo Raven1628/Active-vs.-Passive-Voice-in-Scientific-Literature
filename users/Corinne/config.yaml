@@ -1,21 +1,21 @@
 project:
-  name: "Voice Analysis"
+  name: "Elsevier Voice Analysis"
 
 journals:
-  - name: "Journal 1"
-    issn: ""
-  - name: "Journal 2"
-    issn: ""
-  - name: "Journal 3"
-    issn: ""
-  - name: "Journal 4"
-    issn: ""
-  - name: "Journal 5"
-    issn: ""
-  - name: "Journal 6"
-    issn: ""
-  - name: "Journal 7"
-    issn: ""
+  - name: "Cancer Cell"
+    issn: "1535-6108"
+  - name: "Neuron"
+    issn: "0896-6273"
+  - name: "Developmental Cell"
+    issn: "1534-5807"
+  - name: "Immunity"
+    issn: "1074-7613"
+  - name: "Structure"
+    issn: "0969-2126"
+  - name: "Cell"
+    issn: "0092-8674"
+  - name: "Current Biology"
+    issn: "0960-9822"
 
 years: [2005, 2010, 2015, 2020, 2025]
 papers_per_year: 40

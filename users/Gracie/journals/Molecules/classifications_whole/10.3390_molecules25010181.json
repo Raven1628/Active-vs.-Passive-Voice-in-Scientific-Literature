@@ -1,0 +1,343 @@
+{
+  "paper_id": "10.3390_molecules25010181",
+  "journal": "Molecules",
+  "classifications": [
+    {
+      "sentence": "Introduction\u00a0\nGlobally,\u00a0soybean\u00a0(Glycine\u00a0max\u00a0(L.)\u00a0Merr.)\u00a0is\u00a0a\u00a0large\u00a0portion\u00a0of\u00a0major\u00a0grain\u00a0production,\u00a0along\u00a0\nwith\u00a0corn,\u00a0wheat,\u00a0and\u00a0rice\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Isoflavones,\u00a0a\u00a0subgroup\u00a0of\u00a0flavonoids,\u00a0are\u00a0well\u2010known\u00a0plant\u00a0secondary\u00a0\nmetabolites\u00a0that\u00a0are\u00a0found\u00a0mainly\u00a0in\u00a0the\u00a0plant\u00a0families\u00a0Fabaceae\u00a0or\u00a0Leguminosae,\u00a0including\u00a0soybean\u00a0\n.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Isoflavones\u00a0 in\u00a0 soybeans\u00a0 are\u00a0 present\u00a0 mainly\u00a0 in\u00a0 conjugated\u00a0 forms\u00a0 .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Soy\u00a0 isoflavones\u00a0 are\u00a0\nclassified\u00a0 as\u00a0 acetylisoflavones,\u00a0 malonylisoflavones,\u00a0 non\u2010acylated\u00a0 isoflavone\u00a0 glucosides,\u00a0 and\u00a0\nisoflavone\u00a0aglycones\u00a0(IFAs),\u00a0depending\u00a0on\u00a0the\u00a0side\u00a0groups\u00a0attached\u00a0to\u00a0the\u00a0isoflavone\u00a0skeleton\u00a0.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "IFAs\u00a0have\u00a0antioxidant\u00a0properties,\u00a0interact\u00a0with\u00a0epigenetic\u00a0modifications,\u00a0and\u00a0exhibit\u00a0estrogen\u2010like\u00a0\nactivities\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Dietary\u00a0IFAs\u00a0can\u00a0be\u00a0metabolized\u00a0to\u00a0equol\u00a0(4\u2019,7\u2010isoflavandiol),\u00a0which\u00a0has\u00a0significant\u00a0\n\nMolecules\u00a02020,\u00a025,\u00a0181\u00a0\n2\u00a0of\u00a015\u00a0\n \nestrogenic\u00a0activity\u00a0in\u00a0the\u00a0intestine\u00a0.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Soy\u00a0isoflavones\u00a0exist\u00a0naturally\u00a0in\u00a0conjugated\u00a0forms\u00a0rather\u00a0than\u00a0\nas\u00a0 aglycones;\u00a0 for\u00a0 example,\u00a0 daidzein\u00a0 [7\u2010hydroxy\u20103\u2010(4\u2010hydroxyphenyl)chromen\u20104\u2010one],\u00a0 glycitein\u00a0 [7\u2010\nhydroxy\u20103\u2010(4\u2010hydroxyphenyl)\u20106\u2010methoxychromen\u20104\u2010one],\u00a0\nand\u00a0\ngenistein\u00a0\n[5,7\u2010dihydroxy\u20103\u2010(4\u2010\nhydroxyphenyl)chromen\u20104\u2010one]\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "However,\u00a0conjugated\u00a0isoflavones\u00a0are\u00a0converted\u00a0into\u00a0aglycone\u00a0\nforms\u00a0during\u00a0processing\u00a0or\u00a0storage\u00a0.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\u00a0bioaccessibility\u00a0of\u00a0IFAs\u00a0is\u00a0low\u00a0due\u00a0to\u00a0their\u00a0poor\u00a0solubility\u00a0\nin\u00a0water\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Therefore,\u00a0various\u00a0methods\u00a0have\u00a0been\u00a0developed\u00a0to\u00a0overcome\u00a0these\u00a0shortcomings\u00a0of\u00a0\nIFAs\u00a0.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Glycosylation\u00a0via\u00a0chemical\u00a0or\u00a0non\u2010chemical\u00a0methods\u00a0can\u00a0change\u00a0the\u00a0physicochemical\u00a0properties\u00a0\nof\u00a0compounds\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The\u00a0use\u00a0of\u00a0enzymes,\u00a0such\u00a0as\u00a0glycosyltransferases,\u00a0is\u00a0a\u00a0natural\u00a0way\u00a0to\u00a0improve\u00a0\nthe\u00a0 solubility\u00a0 of\u00a0 IFA\u00a0 .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Enzymatic\u00a0 glycosylation\u00a0 reactions\u00a0 are\u00a0 efficient\u00a0 and\u00a0 environmentally\u00a0\nfriendly\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Compared\u00a0with\u00a0harsh\u00a0chemical\u00a0methods,\u00a0enzymatic\u00a0methods\u00a0typically\u00a0generate\u00a0five\u00a0\ntimes\u00a0less\u00a0waste\u00a0and\u00a0have\u00a0a\u00a015\u2010fold\u00a0higher\u00a0space\u2013time\u00a0yield\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Recently,\u00a0biological\u00a0glycosylation\u00a0\nmethods\u00a0using\u00a0a\u00a0variety\u00a0of\u00a0enzymes\u00a0to\u00a0improve\u00a0the\u00a0water\u00a0solubility\u00a0of\u00a0lipophilic\u00a0compounds\u00a0have\u00a0\nbeen\u00a0developed\u00a0.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Transglycosylation\u00a0improved\u00a0genistein\u00a0solubility\u00a0by\u00a03700\u201344,000\u00a0\u00a0and\u00a0\ntransglycosylated\u00a0catechin,\u00a0naringin,\u00a0and\u00a0rutin\u00a0were\u00a0found\u00a0to\u00a0have\u00a0100\u2010,\u00a01000\u2010,\u00a0and\u00a030,000\u2010fold\u00a0higher\u00a0\nwater\u00a0solubility\u00a0than\u00a0non\u2010transglycosylated\u00a0catechin,\u00a0naringin,\u00a0and\u00a0rutin,\u00a0respectively\u00a0.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\u00a0\nuse\u00a0of\u00a0glycosyltransferases\u00a0from\u00a0microbial\u00a0sources\u00a0for\u00a0transglycosylation\u00a0reactions\u00a0is\u00a0an\u00a0efficient\u00a0and\u00a0\neco\u2010friendly\u00a0biological\u00a0alternative\u00a0to\u00a0chemical\u00a0reactions\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Flavonoids\u00a0can\u00a0be\u00a0glycosylated\u00a0using\u00a0\nenzymes\u00a0 from\u00a0 microbial\u00a0 sources\u00a0 such\u00a0 as\u00a0 cyclodextrin\u00a0 glycosyltransferase\u00a0 (CGTase)\u00a0 and\u00a0 uridine\u00a0\ndiphosphate\u00a0glucose\u00a0(UDP\u2010glucose)\u00a0.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "CGTase\u00a0is\u00a0widely\u00a0employed\u00a0to\u00a0increase\u00a0the\u00a0solubility\u00a0\nand\u00a0stability\u00a0of\u00a0polyphenols\u00a0such\u00a0as\u00a0glycosylated\u00a0isoflavones\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "However,\u00a0the\u00a0CGTase\u2010reacted\u00a0\ncomplex\u00a0solution\u00a0is\u00a0cloudy\u00a0and\u00a0contains\u00a0high\u00a0molecular\u00a0weight\u00a0compounds\u00a0,\u00a0while\u00a0the\u00a0UDP\u2010\nglucose\u00a0complex\u00a0has\u00a0low\u00a0reaction\u00a0yields\u00a0and\u00a0is\u00a0expensive\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Amylosucrase\u00a0(EC\u00a02.4.1.4;\u00a0AS)\u00a0is\u00a0a\u00a0glycosyltransferase\u00a0enzyme\u00a0that\u00a0belongs\u00a0to\u00a0the\u00a0glucoside\u00a0\nhydrolase\u00a0family\u00a013\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "One\u00a0of\u00a0the\u00a0main\u00a0characteristics\u00a0of\u00a0AS\u00a0is\u00a0that\u00a0it\u00a0catalyzes\u00a0transglycosylation\u00a0\nreactions\u00a0to\u00a0create\u00a0\u03b1\u20101,4\u2010glycosidic\u00a0linkages\u00a0given\u00a0sucrose\u00a0as\u00a0a\u00a0substrate\u00a0;\u00a0AS\u00a0promotes\u00a0sucrose\u00a0\nhydrolysis\u00a0to\u00a0release\u00a0glucose\u00a0and\u00a0fructose,\u00a0and\u00a0\u03b1\u20101,4\u2010oligosaccharides\u00a0are\u00a0formed\u00a0using\u00a0the\u00a0released\u00a0\nglucose\u00a0as\u00a0an\u00a0acceptor\u00a0.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Deinococcus\u00a0geothermalis\u00a0AS\u00a0(DGAS)\u00a0synthesizes\u00a0\u03b1\u20101,4\u2010glycosidic\u00a0bonds\u00a0\nusing\u00a0various\u00a0acceptors\u00a0such\u00a0as\u00a0flavonoids\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "DGAS\u00a0enhances\u00a0the\u00a0water\u00a0solubility\u00a0of\u00a0flavonoid\u00a0\naglycones\u00a0 by\u00a0 transglycosylation\u00a0 .",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Compared\u00a0 with\u00a0 glycosyltransferase\u00a0 enzymes\u00a0 such\u00a0 as\u00a0\nCGTase,\u00a0DGAS\u00a0can\u00a0react\u00a0with\u00a0high\u00a0substrate\u00a0specificity\u00a0using\u00a0relatively\u00a0inexpensive\u00a0donors\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "In\u00a0\naddition,\u00a0the\u00a0interpretation\u00a0of\u00a0experimental\u00a0results\u00a0is\u00a0easier\u00a0when\u00a0using\u00a0DGAS\u00a0because\u00a0of\u00a0fewer\u00a0\nimpurities\u00a0and\u00a0the\u00a0limited\u00a0number\u00a0of\u00a0transglycosylated\u00a0sugar\u00a0moieties\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "These\u00a0features\u00a0of\u00a0\nDGAS\u00a0can\u00a0be\u00a0exploited\u00a0to\u00a0increase\u00a0the\u00a0solubility\u00a0and\u00a0bioavailability\u00a0of\u00a0bioactive\u00a0phenolic\u00a0compounds\u00a0\nin\u00a0soybeans.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In\u00a0this\u00a0study,\u00a0we\u00a0investigated\u00a0the\u00a0physicochemical\u00a0changes\u00a0of\u00a0major\u00a0soybean\u00a0IFAs\u00a0in\u00a0response\u00a0\nto\u00a0 DGAS\u2010mediated\u00a0 transglycosylation.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "To\u00a0 determine\u00a0 what\u00a0 reaction\u00a0 conditions\u00a0 resulted\u00a0 in\u00a0 high\u00a0\ntransglycosylated\u00a0conversion\u00a0yields\u00a0of\u00a0IFAs,\u00a0factors\u00a0such\u00a0as\u00a0the\u00a0amount\u00a0of\u00a0donors,\u00a0acceptors,\u00a0and\u00a0\nenzymes\u00a0were\u00a0evaluated.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Optimal\u00a0reaction\u00a0conditions\u00a0were\u00a0applied\u00a0to\u00a0soybean\u00a0isoflavone\u00a0extract\u00a0to\u00a0\nconfirm\u00a0 that\u00a0 the\u00a0 IFAs\u00a0 were\u00a0 efficiently\u00a0 transglycosylated.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Based\u00a0 on\u00a0 our\u00a0 results,\u00a0 we\u00a0 propose\u00a0 an\u00a0\napplication\u00a0of\u00a0the\u00a0DGAS\u00a0enzyme\u00a0process\u00a0to\u00a0enrich\u00a0transglycosylated\u00a0IFAs\u00a0in\u00a0soy\u2010based\u00a0foods\u00a0such\u00a0\nas\u00a0soybeans,\u00a0soybean\u00a0extracts,\u00a0and\u00a0soy\u00a0products\u00a0in\u00a0the\u00a0industrial\u00a0field.\u00a0\n2.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "DGAS\u00a0Expression\u00a0and\u00a0Activities\u00a0\nDGAS\u00a0 was\u00a0 successfully\u00a0 expressed\u00a0 by\u00a0 Escherichia\u00a0 coli\u00a0 transformed\u00a0 with\u00a0 the\u00a0 shuttle\u00a0 vector\u00a0\npHCXHD\u2010DGAS\u00a0as\u00a0confirmed\u00a0by\u00a0the\u00a0detection\u00a0of\u00a0dgas\u00a0expression\u00a0in\u00a0transformed\u00a0cells\u00a0(Figure\u00a01a).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Activity\u00a0of\u00a0AS\u00a0was\u00a0observed\u00a0in\u00a0cell\u00a0extracts\u00a0of\u00a0pHCXHD\u2010DGAS\u2010transformed\u00a0cells.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "DGAS\u00a0fused\u00a0with\u00a0\n6\uf0b4\u00a0histidine\u00a0appeared\u00a0as\u00a0a\u00a0single\u00a0band\u00a0with\u00a0a\u00a0molecular\u00a0mass\u00a0of\u00a0about\u00a073\u00a0kDa\u00a0(Figure\u00a01b),\u00a0which\u00a0is\u00a0\nin\u00a0good\u00a0agreement\u00a0with\u00a0the\u00a0estimated\u00a0molecular\u00a0mass\u00a0of\u00a0DGAS.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "This\u00a0result\u00a0confirmed\u00a0that\u00a0DGAS\u00a0\nwas\u00a0successfully\u00a0expressed\u00a0as\u00a0a\u00a0functional\u00a0protein\u00a0in\u00a0E.\u00a0coli.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "DGAS\u00a0was\u00a0considered\u00a0to\u00a0be\u00a0free\u00a0of\u00a0\n\nMolecules\u00a02020,\u00a025,\u00a0181\u00a0\n3\u00a0of\u00a015\u00a0\n \nprotein\u00a0toxicity\u00a0because\u00a0it\u00a0was\u00a0not\u00a0harmful\u00a0to\u00a0E.\u00a0coli.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Temperature\u00a0and\u00a0pH\u00a0profiles\u00a0of\u00a0DGAS\u00a0expressed\u00a0\nin\u00a0E.\u00a0coli\u00a0were\u00a0investigated\u00a0in\u00a0the\u00a0range\u00a0of\u00a030\u00a0to\u00a055\u00a0\u00b0C\u00a0and\u00a0pH\u00a04.0\u00a0to\u00a09.0,\u00a0respectively,\u00a0based\u00a0on\u00a0a\u00a0\nprevious\u00a0 report\u00a0 of\u00a0 DGAS\u00a0 expression\u00a0 in\u00a0 E.\u00a0 coli\u00a0 .",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "It\u00a0 was\u00a0 previously\u00a0 reported\u00a0 that\u00a0 isoflavone\u00a0\nglucosides\u00a0can\u00a0be\u00a0thermally\u00a0transformed\u00a0to\u00a0their\u00a0corresponding\u00a0aglycone\u00a0forms\u00a0during\u00a0processing\u00a0\n.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In\u00a0consideration\u00a0of\u00a0the\u00a0stability\u00a0of\u00a0the\u00a0IFAs,\u00a0the\u00a0temperature\u00a0and\u00a0pH\u00a0for\u00a0the\u00a0DGAS\u2010mediated\u00a0\ntransglycosylation\u00a0of\u00a0IFAs\u00a0in\u00a0this\u00a0study\u00a0were\u00a0set\u00a0at\u00a045\u00a0\u00b0C\u00a0and\u00a0pH\u00a05.0,\u00a0respectively.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "(a)\u00a0\n\u00a0\n(b)\u00a0\nSoy\u00a0isoflavones\u00a0have\u00a0different\u00a0ultraviolet\u2010visible\u00a0spectra\u00a0depending\u00a0on\u00a0their\u00a0aglycones\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The\u00a0 peaks\u00a0 newly\u00a0 produced\u00a0 by\u00a0 DGAS\u2010treated\u00a0 transglycosylation\u00a0 were\u00a0 tentatively\u00a0 confirmed\u00a0 by\u00a0\ncomparison\u00a0with\u00a0the\u00a0patterns\u00a0of\u00a0ultraviolet\u2010visible\u00a0spectra\u00a0of\u00a0isoflavone\u00a0standards\u00a0and\u00a0molecular\u00a0\nweight\u00a0 (Table\u00a0 3).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "As\u00a0 results\u00a0 of\u00a0 mass\u00a0 spectrometry\u00a0 (MS),\u00a0 19\u00a0 products\u00a0 including\u00a0 four\u00a0 unknown\u00a0\ncompounds\u00a0of\u00a0DGAS\u2010treated\u00a0CE\u2010SBE\u00a0were\u00a0tentatively\u00a0identified\u00a0(Table\u00a03).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\u00a0malonylisoflavones\u00a0\nin\u00a0SBE\u00a0were\u00a0not\u00a0changed\u00a0by\u00a0DGAS\u00a0(peaks\u00a015,\u00a016,\u00a0and\u00a017\u00a0of\u00a0Figure\u00a05c)\u00a0in\u00a0this\u00a0study.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In\u00a0contrast,\u00a0IFAs\u00a0\nwere\u00a0 not\u00a0 detected\u00a0 in\u00a0 CE\u2010SBE\u2010DGAS\u00a0 (Figure\u00a0 5c\u00a0 and\u00a0 Table\u00a0 2),\u00a0 indicating\u00a0 that\u00a0 IFAs\u00a0 in\u00a0 CE\u2010SBE\u00a0 are\u00a0\nsuccessfully\u00a0 transglycosylated\u00a0 using\u00a0 DGAS.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In\u00a0 previous\u00a0 studies,\u00a0 DGAS\u00a0 has\u00a0 been\u00a0 reported\u00a0 to\u00a0\ntransglycosylate\u00a0a\u00a0sugar\u00a0moiety\u00a0to\u00a0the\u00a0\uf02dOH\u00a0group\u00a0of\u00a0the\u00a0flavonoid\u00a0aglycone\u00a0.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "It\u00a0is\u00a0also\u00a0\nreported\u00a0that\u00a0glucose\u00a0moiety\u00a0was\u00a0transferred\u00a0to\u00a0the\u00a0isoflavone\u00a0monoglucosides\u00a0such\u00a0as\u00a0daidzin\u00a0.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Among\u00a0the\u00a0peaks\u00a0newly\u00a0generated\u00a0using\u00a0DGAS,\u00a0the\u00a0peaks\u00a010,\u00a012,\u00a0and\u00a013\u00a0were\u00a0identified\u00a0as\u00a0\ndaidzein,\u00a0glycitein,\u00a0and\u00a0genistein\u00a0monoglucosides\u00a0with\u00a0different\u00a0stereospecificity\u00a0and\u00a0retention\u00a0time\u00a0\nfrom\u00a0daidzin,\u00a0glycitin,\u00a0and\u00a0genistin,\u00a0respectively\u00a0(Figure\u00a05c\u00a0and\u00a0Table\u00a03).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\u00a0generated\u00a0isoflavone\u00a0\nmonoglucosides\u00a0can\u00a0be\u00a0seen\u00a0to\u00a0have\u00a0a\u00a0similar\u00a0polarity\u00a0compared\u00a0to\u00a0the\u00a0isoflavone\u00a07\u2010\u03b2\u2010O\u2010glucosides\u00a0\n(peaks\u00a0GD,\u00a0GL,\u00a0and\u00a0GG)\u00a0in\u00a0the\u00a0SBE\u00a0(Figure\u00a05a).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\u00a0MS\u00a0results\u00a0of\u00a0CE\u2010SBE\u2010DGAS\u00a0indicate\u00a0that\u00a0the\u00a0\nmore\u00a0 polar\u00a0 components,\u00a0 which\u00a0 are\u00a0 eluted\u00a0 earlier\u00a0 than\u00a0 isoflavone\u00a0 monoglucosides,\u00a0 are\u00a0\ntransglycosylated\u00a0with\u00a0two\u00a0or\u00a0more\u00a0glucose\u00a0moieties\u00a0(Figure\u00a05c\u00a0and\u00a0Table\u00a03).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\u00a0treatment\u00a0of\u00a0IFA\u00a0\nstandards\u00a0and\u00a0IFA\u2010rich\u00a0extract\u00a0with\u00a0DGAS\u00a0resulted\u00a0in\u00a0higher\u00a0amounts\u00a0of\u00a0isoflavone\u00a0polyglucosides\u00a0\n\nMolecules\u00a02020,\u00a025,\u00a0181\u00a0\n10\u00a0of\u00a015\u00a0\n \nthan\u00a0isoflavone\u00a0monoglucosides\u00a0(Figures\u00a04b\u2013d\u00a0and\u00a05c).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "As\u00a0mentioned\u00a0earlier,\u00a0DGAS\u00a0creates\u00a0various\u00a0\ntransglycosylated\u00a0 isoflavones\u00a0 from\u00a0 IFAs.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Studies\u00a0 of\u00a0 enzyme\u2010modified\u00a0 flavonoids\u00a0 have\u00a0 reported\u00a0\nbinding\u00a0of\u00a0one\u00a0or\u00a0more\u00a0glucose\u00a0moieties\u00a0to\u00a0aglycones\u00a0.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "It\u00a0has\u00a0also\u00a0been\u00a0reported\u00a0that\u00a0glucose\u2010\nadded\u00a0products,\u00a0which\u00a0are\u00a0more\u00a0polar\u00a0than\u00a0daidzin,\u00a0are\u00a0produced\u00a0when\u00a0transglycosylation\u00a0is\u00a0carried\u00a0\nout\u00a0using\u00a0daidzin\u00a0as\u00a0the\u00a0acceptor\u00a0.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Hence,\u00a0by\u00a0using\u00a0DGAS\u00a0for\u00a0the\u00a0transglycosylation\u00a0of\u00a0CE\u2010SBE,\u00a0\nvarious\u00a0isoflavone\u00a0polyglucosides\u00a0with\u00a0two\u00a0and\u00a0three\u00a0glucose\u00a0moieties\u00a0bound\u00a0to\u00a0their\u00a0backbones,\u00a0as\u00a0\nwell\u00a0as\u00a0isoflavone\u00a0monoglucosides,\u00a0can\u00a0be\u00a0generated.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\u00a0final\u00a0samples\u00a0were\u00a0stored\u00a0in\u00a0a\u00a0freezer\u00a0at\u00a0\u221220\u00a0\u00b0C\u00a0until\u00a0further\u00a0analysis.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Molecules\u00a02020,\u00a025,\u00a0181\u00a0\n12\u00a0of\u00a015\u00a0\n \n3.5.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Analysis\u00a0of\u00a0Transglycosylated\u00a0Isoflavones\u00a0by\u00a0HPLC\u00a0and\u00a0MS\u00a0\nSBE,\u00a0CE\u2010SBE,\u00a0and\u00a0CE\u2010SBE\u2010DGAS\u00a0were\u00a0analyzed\u00a0using\u00a0a\u00a0Waters\u00a0HPLC\u00a0system\u00a0(Alliance\u00a0e2998;\u00a0\nWaters)\u00a0 equipped\u00a0 with\u00a0 a\u00a0 ProntoSIL\u00a0 ace\u2010EPS\u2010C18\u00a0 column\u00a0 (120\u00a0 \u00c5,\u00a0 5\u00a0 \u03bcm,\u00a0 4.6\u00a0 \u00d7\u00a0 250\u00a0 mm;\u00a0 Bischoff,\u00a0\nLeonberg,\u00a0Germany)\u00a0and\u00a0a\u00a0photodiode\u00a0array\u00a0detector\u00a0(2695;\u00a0Waters)\u00a0at\u00a0254\u00a0nm.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Gradient\u00a0elution\u00a0was\u00a0\nperforming\u00a0using\u00a00.1%\u00a0(v/v)\u00a0formic\u00a0acid\u00a0in\u00a0water\u00a0(solvent\u00a0A)\u00a0and\u00a0acetonitrile\u00a0(solvent\u00a0B).",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "All\u00a0solvents\u00a0\nwere\u00a0filtered,\u00a0degassed,\u00a0and\u00a0kept\u00a0under\u00a0pressure.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\u00a0initial\u00a0mobile\u00a0phase\u00a0was\u00a0100%\u00a0solvent\u00a0A.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The\u00a0\ngradient\u00a0of\u00a0mobile\u00a0phase\u00a0B\u00a0was\u00a0as\u00a0follows:\u00a00\u20132.5\u00a0min,\u00a00%\u00a0B;\u00a02.5\u20135\u00a0min,\u00a00\u201312%\u00a0B;\u00a05\u20137\u00a0min,\u00a012\u201318%\u00a0B;\u00a0\n7\u201310\u00a0min,\u00a018\u201318%\u00a0B;\u00a010\u201313\u00a0min,\u00a018\u201326%\u00a0B;\u00a013\u201319\u00a0min,\u00a026\u201326%\u00a0B;\u00a019\u201323\u00a0min,\u00a026\u201346%\u00a0B;\u00a023\u201326\u00a0min,\u00a0\n46\u201346%\u00a0B;\u00a026\u201330\u00a0min,\u00a046\u201375%\u00a0B;\u00a030\u201332\u00a0min,\u00a075\u20130%\u00a0B;\u00a032\u201335\u00a0min,\u00a00%\u00a0B.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Flow\u00a0rate,\u00a0column\u00a0oven\u00a0\ntemperature,\u00a0and\u00a0injection\u00a0volume\u00a0were\u00a01.0\u00a0mL/min,\u00a030\u00a0\u00b0C,\u00a0and\u00a05\u00a0\u03bcL,\u00a0respectively.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The\u00a0mass\u00a0detection\u00a0was\u00a0measured\u00a0using\u00a0the\u00a0modified\u00a0method\u00a0used\u00a0in\u00a0our\u00a0previous\u00a0study\u00a0.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\u00a0quadrupole\u00a0Dalton\u2010based\u00a0(QDa)\u00a0detector\u00a0(Waters)\u00a0was\u00a0used\u00a0to\u00a0obtain\u00a0the\u00a0MS\u00a0data.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "An\u00a0isocratic\u00a0\nsolvent\u00a0manager\u00a0system\u00a0split\u00a0the\u00a0analyte\u00a0phase\u00a0into\u00a0acetonitrile\u00a0at\u00a0a\u00a0ratio\u00a0of\u00a08:2.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The\u00a0QDa\u00a0parameters\u00a0\nin\u00a0positive\u00a0ion\u00a0mode\u00a0were\u00a0as\u00a0follows:\u00a0capillary\u00a0voltage,\u00a00.8\u00a0kV;\u00a0cone\u00a0voltage,\u00a05\u00a0V;\u00a0source\u00a0temperature,\u00a0\n600\u00a0\u00b0C;\u00a0desolvation\u00a0gas\u00a0flow,\u00a0800\u00a0L/h.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "The\u00a0mass\u00a0values\u00a0to\u00a0identify\u00a0the\u00a0transglycosylated\u00a0isoflavones\u00a0\nwere\u00a0 used\u00a0 for\u00a0 daidzein\u00a0 glucosides\u00a0(255.1,\u00a0417.1,\u00a0 579.1,\u00a0741.1,\u00a0and\u00a0 903.1\u00a0 m/z),\u00a0 glycitein\u00a0 glucosides\u00a0\n(285.1,\u00a0447.1,\u00a0609.1,\u00a0771.1,\u00a0and\u00a0933.1\u00a0m/z),\u00a0and\u00a0genistein\u00a0glucosides\u00a0(271.2,\u00a0433.2,\u00a0595.2,\u00a0757.2,\u00a0and\u00a0919.2\u00a0\nm/z),\u00a0respectively.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Empower\u00a03\u00a0(Waters)\u00a0was\u00a0used\u00a0to\u00a0control\u00a0the\u00a0HPLC\u2010QDa\u00a0system\u00a0and\u00a0analyze\u00a0the\u00a0\ndata\u00a0obtained.\u00a0\n3.6.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Statistical\u00a0Analysis\u00a0\nData\u00a0are\u00a0displayed\u00a0as\u00a0means\u00a0\u00b1\u00a0standard\u00a0deviations\u00a0of\u00a0three\u00a0replicate\u00a0determinations.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Statistical\u00a0\nanalyses\u00a0were\u00a0performed\u00a0using\u00a0IBM\u00a0SPSS\u00a0software\u00a0version\u00a023.0\u00a0(IBM\u00a0SPSS\u00a0Statistics\u00a0Inc.,\u00a0Chicago,\u00a0\nIL,\u00a0USA).",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "One\u2010way\u00a0analysis\u00a0of\u00a0variance\u00a0was\u00a0performed\u00a0to\u00a0assess\u00a0the\u00a0significance\u00a0of\u00a0differences\u00a0in\u00a0\nmean\u00a0 values.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Significant\u00a0 differences\u00a0 were\u00a0 verified\u00a0 by\u00a0 the\u00a0 Tukey\u2013Kramer\u00a0 honestly\u00a0 significant\u00a0\ndifference\u00a0test\u00a0(p\u00a0<\u00a00.05).\u00a0\n4.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Conclusions\u00a0\nUsing\u00a0the\u00a0DGAS\u00a0enzymatic\u00a0process,\u00a0IFAs\u00a0were\u00a0modified\u00a0to\u00a0generate\u00a0various\u00a0forms\u00a0of\u00a0isoflavone\u00a0\nglucosides\u00a0with\u00a0different\u00a0polarities.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "In\u00a0addition,\u00a0transglycosylated\u00a0IFAs\u00a0had\u00a0\u03b1\u2010glycosidic\u00a0bonds\u00a0in\u00a0\nthe\u00a0isoflavone\u00a0backbone\u00a0because\u00a0of\u00a0the\u00a0enzymatic\u00a0properties\u00a0of\u00a0DGAS.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Different\u00a0conversion\u00a0yields\u00a0of\u00a0\ntransglycosylation\u00a0 products\u00a0 were\u00a0 achieved\u00a0 for\u00a0 different\u00a0 reaction\u00a0 conditions.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\u00a0 most\u00a0 efficient\u00a0\ntransglycosylation\u00a0 resulted\u00a0 from\u00a0 a\u00a0 low\u00a0 acceptor\u00a0 concentration\u00a0 (IFAs),\u00a0 donor\u2010high\u00a0 concentration\u00a0\n(sucrose),\u00a0and\u00a0high\u00a0DGAS\u00a0enzyme\u00a0activity.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Applying\u00a0the\u00a0reaction\u00a0conditions\u00a0used\u00a0in\u00a0this\u00a0study,\u00a0IFA\u2010\nrich\u00a0extracts\u00a0from\u00a0SBE\u00a0were\u00a0obtained\u00a0by\u00a0an\u00a0environmentally\u00a0friendly\u00a0process\u00a0using\u00a0CE.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "The\u00a0treatment\u00a0\nof\u00a0 IFA\u00a0 standards\u00a0 and\u00a0 IFA\u2010rich\u00a0 extract\u00a0 with\u00a0 DGAS\u00a0 produced\u00a0 higher\u00a0 amounts\u00a0 of\u00a0 isoflavone\u00a0\npolyglucosides\u00a0than\u00a0isoflavone\u00a0monoglucosides.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Taken\u00a0together,\u00a0the\u00a0results\u00a0of\u00a0this\u00a0study\u00a0suggest\u00a0that\u00a0\nDGAS\u2010treated\u00a0 transglycosylation\u00a0 changes\u00a0 physicochemical\u00a0 properties\u00a0 such\u00a0 as\u00a0 the\u00a0 bioactivity,\u00a0\nsolubility\u00a0and\u00a0stability\u00a0of\u00a0isoflavones\u00a0in\u00a0soybeans\u00a0and\u00a0produces\u00a0soybean\u2010based\u00a0functional\u00a0ingredients\u00a0\nrich\u00a0in\u00a0transglycosylated\u00a0IFA.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Author\u00a0Contributions:\u00a0Conceptualization,\u00a0Y.S.J.\u00a0and\u00a0D.\u2010H.S;\u00a0methodology,\u00a0Y.\u2010J.K.,\u00a0D.J.,\u00a0and\u00a0M.\u2010S.K.;\u00a0validation,\u00a0\nY.S.J.;\u00a0formal\u00a0analysis,\u00a0T.G.N.,\u00a0and\u00a0C.\u2010S.R.;\u00a0data\u00a0curation,\u00a0C.\u2010S.R.;\u00a0investigation,\u00a0D.J.,\u00a0M.\u2010S.K.,\u00a0D.\u2010H.S,\u00a0and\u00a0T.G.N.;\u00a0\nwriting\u2014original\u00a0draft\u00a0preparation,\u00a0Y.S.J.,\u00a0and\u00a0Y.\u2010J.K.;\u00a0writing\u2014review\u00a0and\u00a0editing,\u00a0A.T.K.,\u00a0C.\u2010S.P.,\u00a0and\u00a0D.\u2010O.K.;\u00a0\nsupervision,\u00a0D.\u2010O.K.;\u00a0project\u00a0administration,\u00a0D.\u2010O.K.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "All\u00a0authors\u00a0have\u00a0read\u00a0and\u00a0agreed\u00a0to\u00a0the\u00a0published\u00a0version\u00a0\nof\u00a0the\u00a0manuscript.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Funding:\u00a0This\u00a0research\u00a0was\u00a0funded\u00a0by\u00a0the\u00a0Rural\u00a0Development\u00a0Administration\u00a0Agenda\u00a0of\u00a0Korea, grant\u00a0number\u00a0\n\u201cPJ01251204\u201d.",
+      "label": "PASSIVE"
+    },
+    {
+      "sentence": "Conflicts\u00a0of\u00a0Interest:\u00a0The\u00a0authors\u00a0declare\u00a0no\u00a0conflict\u00a0of\u00a0interest.",
+      "label": "ACTIVE"
+    },
+    {
+      "sentence": "Molecules\u00a02020,\u00a025,\u00a0181\u00a0\n13\u00a0of\u00a015\u00a0\n \nAbbreviations\u00a0\nAS\u00a0\namylosucrase\u00a0\nCE\u00a0\ncellulase\u00a0\nCE\u2010SBE\u00a0\ncellulase\u2010treated\u00a0soybean\u00a0extract\u00a0\nCE\u2010SBE\u2010DGAS\u00a0\nCE\u2010SBE\u00a0transglycosylated\u00a0using\u00a0\nDGAS\u00a0\nCGTase\u00a0\ncyclodextrin\u00a0glycosyltransferase\u00a0\nDGAS\u00a0\nDeinococcus\u00a0geothermalis\u00a0\namylosucrase\u00a0\nDMSO\u00a0\ndimethyl\u00a0sulfoxide\u00a0\nHPLC\u00a0\nhigh\u2010performance\u00a0liquid\u00a0\nchromatography\u00a0\nIFA\u00a0\nisoflavone\u00a0aglycone\u00a0\nMS\u00a0\nmass\u00a0spectrometry\u00a0\nSBE\u00a0\nsoybean\u00a0extract\u00a0\nQDa\u00a0\nquadrupole\u00a0Dalton\u2010based\u00a0\nUDP\u2010glucose\u00a0\nuridine\u00a0diphosphate\u00a0glucose",
+      "label": "ACTIVE"
+    }
+  ],
+  "num_sentences": 84
+}
